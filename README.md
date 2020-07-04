@@ -66,7 +66,7 @@ Vamos criar um seletor de temas para ser implementado na sua interface do usuár
 
 ## 1ª Etapa - Criando o input_select
 O input_select será usado para criar a lista de seleção com os temas que eu criei.<br>
-Se você nunca usou input select, [saiba mais clicando aqui](https://www.home-assistant.io/integrations/input_select)<br><br>
+Se você nunca usou input select, [saiba mais clicando aqui.](https://www.home-assistant.io/integrations/input_select)<br><br>
 ```
 input_select:
 
@@ -124,10 +124,16 @@ Resultado:
 
 ## 2ª Etapa - Automação do seletor de temas no Node-RED
 
-ATENÇÃO! Se você nunca usou o Node-RED, [saiba mais clicando aqui.](https://github.com/hassio-addons/addon-node-red)<br><br>
-Vamos criar um flow no Node-RED para definir o tema automaticamente toda vez que você escolher um tema na sua interface.<br>
-É bem simples! Basta fazer o download do arquivo .json ou copiar o código e colar na janela de importação do Node-RED.<br>
-[Clique aqui para copiar ou fazer download do código dos fluxos do Node-RED](/src/seletor_theme_nodered.json)<br><br>
+**ATENÇÃO!** Se você nunca usou o Node-RED, [saiba mais clicando aqui.](https://github.com/hassio-addons/addon-node-red)
+
+
+Vamos criar um flow no Node-RED para definir o tema automaticamente toda vez que você escolher um tema na sua interface.
+
+É bem simples! Basta fazer o download do arquivo .json ou copiar o código e colar na janela de importação do Node-RED.
+
+[Clique aqui para copiar ou fazer download do código dos fluxos do Node-RED](/src/seletor_theme_nodered.json)
+
+
 Após importar o flow para o seu Node-RED, clique em **Deply**<br><br>
 
 ## 3ª Etapa - Implementando o seletor na sua interface
