@@ -59,7 +59,9 @@ Agora **reinicie o seu Home Assistante** e os temas estarão disponíveis para u
 
 
 # Criando um seletor de temas automático para a interface (opcional)
-Vamos criar um seletor de temas para ser implementado na sua interface do usuário. É uma forma prática de alterar o tema instantaneamente em todos os dispositivos conectados ao seu Home Assistant. Veja como funciona no gif abaixo:<br>
+Vamos criar um seletor de temas para ser implementado na sua interface do usuário. É uma forma prática de alterar o tema instantaneamente em todos os dispositivos conectados ao seu Home Assistant. Veja como funciona no gif abaixo:
+
+
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/seletor.gif)
 
 ## 1ª Etapa - Criando o input_select
