@@ -120,11 +120,13 @@ input_select:
       - Black Gray - Transparent      
       - Default
 ```
-Reinicie o seu Home Assistant para que o input_select seja criado.<br>
+Reinicie o seu Home Assistant para que o input_select seja criado.
+
 
 Resultado:
 * input_select.themes
-<br><br>
+
+
 
 ## 2ª Etapa - Automação do seletor de temas no Node-RED
 
