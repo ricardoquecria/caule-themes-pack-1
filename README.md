@@ -1,5 +1,5 @@
 # Themes Pack 2.0 - by caulecriativo.com
-
+[English version](README.md)
 
 Criado por Ricardo Correia para a comunidade Home Assistant Brasil.
 <br>São 10 cores modernas, totalizando 40 temas diferentes!
@@ -155,4 +155,4 @@ Agora é só inserir o código do seletor na sua interface.
 ``` 
 
 ### Agora é só aproveitar!
-### Se tudo der certo, mande um print ☺️
+### Se tudo der certo, [mande um print](http://api.whatsapp.com/send?phone=5565999593909) ☺️
