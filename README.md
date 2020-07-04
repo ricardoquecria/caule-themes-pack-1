@@ -7,13 +7,15 @@ São 10 cores modernas, totalizando 40 temas diferentes!
 Quero pedir apenas 2 coisas para quem se beneficiar com esses temas:
 
 1) Entre na comunidade HABR no Discord: [habr.ml](http://habr.ml)
-2) Siga meu estúdio de criação no instagram: [caulecriativo.com](http://caulecriativo.com) ☺️
+2) Siga meu estúdio de criação no instagram: [caulecriativo.com](http://caulecriativo.com)
 
-Faça bom aproveito dos temas =)<br><br>
+Faça bom aproveito dos temas ☺️<br><br>
+
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack1.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack2.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack3.png)
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack4.png)<br><br>
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack4.png)
+<br><br>
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/01-rose.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/02-purple.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/03-blue.png)
@@ -25,17 +27,26 @@ Faça bom aproveito dos temas =)<br><br>
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/09-pink.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/10-gray.png)
 <br>
+
 # Instalação dos temas
-## Se você já tem um arquivo themes.yaml
+
+## * Voce já tem um arquivo themes.yaml?
+
 Então é só copiar o código ou fazer download do [**themes.yaml** clicando aqui](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/src/pt-br/themes.yaml).<br><br>
-## Se você AINDA NÃO tem um arquivo themes.yaml
-Então você precisa configurar seu arquivo **configuration.yaml**, acrescentando o código que segue abaixo:
+
+## * Você AINDA NÃO tem um arquivo themes.yaml?
+
+Então você precisa configurar seu arquivo **configuration.yaml**, acrescentando o código que segue abaixo para que o seu Home Assistant busque os temas no arquivo **themes.yaml**:
 <br>
+
 ```
 frontend:
   themes: !include themes.yaml
 ```
+
 Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo [**themes.yaml** clicando aqui](https://raw.githubusercontent.com/orickcorreia/ha-themes-pack-2.0/master/src/pt-br/themes.yaml) e copie esse arquivo para sua pasta **config**. O arquivo **themes.yaml** deve estar na mesma pasta do arquivo **configuration.yaml**.<br><br>
+
+
 ## Download dos backgrounds
 10 dos 40 temas possuem backgrounds que precisam ser baixados e copiados para o seu servidor do Home Assistant.<br>
 Baixe os backgrounds [**clicando aqui.**](https://github.com/orickcorreia/ha-themes-pack-2.0/raw/master/src/backgrounds.zip) Extraia o arquivo **.zip** e copie a pasta **backgrounds** para dentro da pasta **config/www/**.<br>
