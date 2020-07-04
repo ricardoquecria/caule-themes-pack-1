@@ -54,11 +54,11 @@ Após inserir a configuração no seu **configuration.yaml**, faça o download d
 *ATENÇÃO! Se sua pasta **www** ainda não existir, crie ela dentro da pasta **config**.*
 
 
-Agora reinicie o seu Home Assistante e os temas estarão disponíveis para uso.
+Agora **reinicie o seu Home Assistante** e os temas estarão disponíveis para uso.
 <br><br>
 
 
-# Criando seletor automático para usar na interface (opcional)
+# Criando um seletor de temas automático para a interface (opcional)
 Vamos criar um seletor de temas para ser implementado na sua interface do usuário. É uma forma prática de alterar o tema instantaneamente em todos os dispositivos conectados ao seu Home Assistant. Veja como funciona no gif abaixo:<br>
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/seletor.gif)
 
