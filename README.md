@@ -22,12 +22,11 @@ Faça bom aproveito dos temas =)<br><br>
 ![](/images/09-pink.png)
 ![](/images/10-gray.png)
 <br>
-# Instalação
-## 1ª Estapa - Configurando os temas
-### Se você já tem um arquivo themes.yaml
+# Instalação dos temas
+## Se você já tem um arquivo themes.yaml
 Então é só copiar o código ou fazer download do [**themes.yaml** clicando aqui](/pt-br/themes.yaml).<br><br>
-### Se você AINDA NÃO tem um arquivo themes.yaml
-Então você precisa configurar seu arquivo **configuration.yaml**:
+## Se você AINDA NÃO tem um arquivo themes.yaml
+Então você precisa configurar seu arquivo **configuration.yaml**, acrescentando o código que segue abaixo:
 <br>
 ```
 frontend:
@@ -35,3 +34,57 @@ frontend:
 ```
 Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo [**themes.yaml** clicando aqui](/pt-br/themes.yaml) e copie esse arquivo para sua pasta **config**. O arquivo **themes.yaml** deve estar na mesma pasta do arquivo **configuration.yaml**.<br><br>
 Feito isso, reinicie o seu Home Assistante e os temas estarão disponíveis para uso.
+<br><br>
+# Configurando o seletor automático
+## 1ª etapa - Criando o input_select
+O input_select será usado para criar a lista de seleção com os temas que eu criei.<br>
+Se você nunca usou input select, [saiba mais clicando aqui](https://www.home-assistant.io/integrations/input_select)<br><br>
+```
+input_select:
+
+  themes:
+    name: 'Temas'
+    icon: mdi:format-paint
+    options:
+      - Black Rose - Flat
+      - Black Purple - Flat
+      - Black Blue - Flat 
+      - Black Aqua - Flat
+      - Black Green - Flat
+      - Black Yellow - Flat
+      - Black Orange - Flat
+      - Black Coral - Flat
+      - Black Pink - Flat
+      - Black Gray - Flat
+      - Dark Rose - Flat
+      - Dark Purple - Flat
+      - Dark Blue - Flat 
+      - Dark Aqua - Flat
+      - Dark Green - Flat
+      - Dark Yellow - Flat
+      - Dark Orange - Flat
+      - Dark Coral - Flat
+      - Dark Pink - Flat
+      - Dark Gray - Flat
+      - Light Rose - Flat
+      - Light Purple - Flat
+      - Light Blue - Flat 
+      - Light Aqua - Flat
+      - Light Green - Flat
+      - Light Yellow - Flat
+      - Light Orange - Flat
+      - Light Coral - Flat
+      - Light Pink - Flat
+      - Light Gray - Flat
+      - Black Rose - Transparent
+      - Black Purple - Transparent
+      - Black Blue - Transparent 
+      - Black Aqua - Transparent
+      - Black Green - Transparent
+      - Black Yellow - Transparent
+      - Black Orange - Transparent
+      - Black Coral - Transparent
+      - Black Pink - Transparent
+      - Black Gray - Transparent      
+      - Default
+```
