@@ -50,7 +50,8 @@ Após inserir a configuração no seu **configuration.yaml**, faça o download d
 ## Download dos backgrounds
 10 dos 40 temas possuem backgrounds que precisam ser baixados e copiados para o seu servidor do Home Assistant. Baixe os backgrounds [**clicando aqui.**](https://github.com/orickcorreia/ha-themes-pack-2.0/raw/master/src/backgrounds.zip) Extraia o arquivo **.zip** e copie a pasta **backgrounds** para dentro da pasta **/config/www/**. O caminho final para a pasta dos arquivos deve ser **/config/www/backgrounds/**<br><br>
 ATENÇÃO! Se sua pasta **www** ainda não existir, crie ela dentro da pasta **config**.
-<br>
+
+
 Agora reinicie o seu Home Assistante e os temas estarão disponíveis para uso.
 <br><br>
 
