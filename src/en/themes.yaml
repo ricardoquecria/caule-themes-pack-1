@@ -782,7 +782,7 @@ Black Rose - Transparent:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  background-image: 'center / cover no-repeat url("/local/backgrounds/rose.jpg") fixed'
+  lovelace-background: 'center / cover no-repeat url("/local/backgrounds/rose.jpg") fixed'
   # Main colors
   primary-color: "#aa3151"
   light-primary-color: "#b8536d"
@@ -851,7 +851,7 @@ Black Purple - Transparent:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  background-image: 'center / cover no-repeat url("/local/backgrounds/purple.jpg") fixed'
+  lovelace-background: 'center / cover no-repeat url("/local/backgrounds/purple.jpg") fixed'
   # Main colors
   primary-color: "#904eab"
   light-primary-color: "#c983e4"
@@ -920,7 +920,7 @@ Black Blue - Transparent:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  background-image: 'center / cover no-repeat url("/local/backgrounds/blue.jpg") fixed'
+  lovelace-background: 'center / cover no-repeat url("/local/backgrounds/blue.jpg") fixed'
   # Main colors
   primary-color: "#009bb5"
   light-primary-color: "#5ed1eb"
@@ -989,7 +989,7 @@ Black Aqua - Transparent:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  background-image: 'center / cover no-repeat url("/local/backgrounds/aqua.jpg") fixed'
+  lovelace-background: 'center / cover no-repeat url("/local/backgrounds/aqua.jpg") fixed'
   # Main colors
   primary-color: "#11ab93"
   light-primary-color: "#62e3c8"
@@ -1058,7 +1058,7 @@ Black Green - Transparent:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  background-image: 'center / cover no-repeat url("/local/backgrounds/green.jpg") fixed'
+  lovelace-background: 'center / cover no-repeat url("/local/backgrounds/green.jpg") fixed'
   # Main colors
   primary-color: "#6ca049"
   light-primary-color: "#a1d77b"
@@ -1127,7 +1127,7 @@ Black Yellow - Transparent:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  background-image: 'center / cover no-repeat url("/local/backgrounds/yellow.jpg") fixed'
+  lovelace-background: 'center / cover no-repeat url("/local/backgrounds/yellow.jpg") fixed'
   # Main colors
   primary-color: "#d6a245"
   light-primary-color: "#ffd979"
@@ -1196,7 +1196,7 @@ Black Orange - Transparent:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  background-image: 'center / cover no-repeat url("/local/backgrounds/orange.jpg") fixed'
+  lovelace-background: 'center / cover no-repeat url("/local/backgrounds/orange.jpg") fixed'
   # Main colors
   primary-color: "#d25f36"
   light-primary-color: "#ff9568"
@@ -1265,7 +1265,7 @@ Black Coral - Transparent:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  background-image: 'center / cover no-repeat url("/local/backgrounds/coral.jpg") fixed'
+  lovelace-background: 'center / cover no-repeat url("/local/backgrounds/coral.jpg") fixed'
   # Main colors
   primary-color: "#fa6e5e"
   light-primary-color: "#ffa792"
@@ -1334,7 +1334,7 @@ Black Pink - Transparent:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  background-image: 'center / cover no-repeat url("/local/backgrounds/pink.jpg") fixed'
+  lovelace-background: 'center / cover no-repeat url("/local/backgrounds/pink.jpg") fixed'
   # Main colors
   primary-color: "#f36f92"
   light-primary-color: "#ffa8c9"
@@ -1403,7 +1403,7 @@ Black Gray - Transparent:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  background-image: 'center / cover no-repeat url("/local/backgrounds/gray.jpg") fixed'
+  lovelace-background: 'center / cover no-repeat url("/local/backgrounds/gray.jpg") fixed'
   # Main colors
   primary-color: "#acacac"
   light-primary-color: "#e2e2e2"
