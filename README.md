@@ -2,8 +2,7 @@
 
 
 Criado por Ricardo Correia para a comunidade Home Assistant Brasil.
-
-São 10 cores modernas, totalizando 40 temas diferentes!
+<br>São 10 cores modernas, totalizando 40 temas diferentes!
 
 Quero pedir apenas 2 coisas para quem se beneficiar com esses temas:
 
