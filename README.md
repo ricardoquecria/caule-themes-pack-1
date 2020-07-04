@@ -35,8 +35,11 @@ frontend:
 Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo [**themes.yaml** clicando aqui](/pt-br/themes.yaml) e copie esse arquivo para sua pasta **config**. O arquivo **themes.yaml** deve estar na mesma pasta do arquivo **configuration.yaml**.<br><br>
 Feito isso, reinicie o seu Home Assistante e os temas estarão disponíveis para uso.
 <br><br>
-# Configurando o seletor automático
-## 1ª etapa - Criando o input_select
+# Criando seletor automático para usar na interface (opcional)
+Vamos criar um seletor de temas para ser implementado na sua interface do usuário. É uma forma prática de alterar o tema instantaneamente em todos os dispositivos conectados ao seu Home Assistant. Veja como funciona no gif abaixo:
+![](/images/seletor.gif)
+
+## 1ª Etapa - Criando o input_select
 O input_select será usado para criar a lista de seleção com os temas que eu criei.<br>
 Se você nunca usou input select, [saiba mais clicando aqui](https://www.home-assistant.io/integrations/input_select)<br><br>
 ```
@@ -88,3 +91,17 @@ input_select:
       - Black Gray - Transparent      
       - Default
 ```
+Reinicie o seu Home Assistant para que o input_select seja criado.<br>
+
+Resultado:
+* input_select.themes
+<br><br>
+
+## 2ª Etapa - Automação do seletor de temas no Node-RED
+
+ATENÇÃO! Se você nunca usou o Node-RED, [saiba mais clicando aqui](https://github.com/hassio-addons/addon-node-red)<br><br>
+Vamos criar um flow no Node-RED para definir o tema automaticamente toda vez que você escolher um tema na sua interface.<br>
+É bem simples! Basta fazer o download do arquivo .json ou copiar o código e colar na janela de importação do Node-RED.<br>
+[Clique aqui para copiar ou fazer download do código dos fluxos do Node-RED](/src/seletor_themes_nodered.json)<br><br>
+Após importar o flow para o seu Node-RED, clique em **Deply**
+
