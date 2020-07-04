@@ -9,13 +9,16 @@ Quero pedir apenas 2 coisas para quem se beneficiar com esses temas:
 1) Entre na comunidade HABR no Discord: [habr.ml](http://habr.ml)
 2) Siga meu estúdio de criação no instagram: [caulecriativo.com](http://caulecriativo.com)
 
-Faça bom aproveito dos temas ☺️<br><br>
+Faça bom aproveito dos temas ☺️
+
 
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack1.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack2.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack3.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack4.png)
-<br><br>
+
+
+
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/01-rose.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/02-purple.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/03-blue.png)
@@ -26,25 +29,26 @@ Faça bom aproveito dos temas ☺️<br><br>
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/08-coral.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/09-pink.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/10-gray.png)
-<br>
+
 
 # Instalação dos temas
 
 ## Se você já tem um arquivo themes.yaml
 
-Então é só copiar o código ou fazer download do **themes.yaml** [**clicando aqui**](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/src/pt-br/themes.yaml).<br><br>
+Então é só copiar o código ou fazer download do **themes.yaml** [**clicando aqui**](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/src/pt-br/themes.yaml).
+
 
 ## Se você AINDA NÃO tem um arquivo themes.yaml
 
 Então você precisa configurar seu arquivo **configuration.yaml**, acrescentando o código que segue abaixo para que o seu Home Assistant busque os temas no arquivo **themes.yaml**:
-<br>
+
 
 ```
 frontend:
   themes: !include themes.yaml
 ```
 
-Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo **themes.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/ha-themes-pack-2.0/master/src/pt-br/themes.yaml) e copie esse arquivo para sua pasta **config**. O arquivo **themes.yaml** deve estar na mesma pasta do arquivo **configuration.yaml**.<br><br>
+Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo **themes.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/ha-themes-pack-2.0/master/src/pt-br/themes.yaml) e copie esse arquivo para sua pasta **config**. O arquivo **themes.yaml** deve estar na mesma pasta do arquivo **configuration.yaml**.
 
 
 ## Download dos backgrounds
@@ -127,9 +131,7 @@ Resultado:
 **ATENÇÃO!** Se você nunca usou o Node-RED, [saiba mais clicando aqui.](https://github.com/hassio-addons/addon-node-red)
 
 
-Vamos criar um flow no Node-RED para definir o tema automaticamente toda vez que você escolher um tema na sua interface.
-
-É bem simples! Basta fazer o download do arquivo .json ou copiar o código e colar na janela de importação do Node-RED.
+Vamos criar um flow no Node-RED para definir o tema automaticamente toda vez que você escolher um tema na sua interface. É bem simples! Basta fazer o download do arquivo .json ou copiar o código e colar na janela de importação do Node-RED.
 
 [Clique aqui para copiar ou fazer download do código dos fluxos do Node-RED](/src/seletor_theme_nodered.json)
 
@@ -151,3 +153,4 @@ Agora é só inserir o código do seletor na sua interface.
 ``` 
 
 ### Agora é só aproveitar!
+### Se tudo der certo, mande um print ☺️
