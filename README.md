@@ -1,5 +1,5 @@
 # Themes Pack 2.0 - by caulecriativo.com
-[English version](README.md)
+[Versão em Português](README-PT-BR.md)
 
 Created by Ricardo Correia for the Home Assistant Brasil community.
 <br> There are 10 modern cores, totaling 40 different themes!
@@ -47,7 +47,7 @@ frontend:
   themes: !include themes.yaml
 ```
 
-After entering the configuration in your **configuration.yaml**, download the file **themes.yaml** [**clicking here**](https://raw.githubusercontent.com/orickcorreia/ha-themes -pack-2.0/master / src / en-us / themes.yaml) and copy this file to your ** config ** folder. The ** themes.yaml ** file must be in the same folder as the ** configuration.yaml ** file.
+After entering the configuration in your **configuration.yaml**, download the file **themes.yaml** [**clicking here**](https://raw.githubusercontent.com/orickcorreia/ha-themes-pack-2.0/master/src/en/themes.yaml) and copy this file to your **config** folder. The **themes.yaml** file must be in the same folder as the **configuration.yaml** file.
 
 
 ## Download backgrounds
