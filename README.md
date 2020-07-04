@@ -11,20 +11,20 @@ Quero pedir apenas 2 coisas para quem se beneficiar com esses temas:
 
 Faça bom aproveito dos temas =)<br><br>
 
-![](/images/01-rose.png)
-![](/images/02-purple.png)
-![](/images/03-blue.png)
-![](/images/04-aqua.png)
-![](/images/05-green.png)
-![](/images/06-yellow.png)
-![](/images/07-orange.png)
-![](/images/08-coral.png)
-![](/images/09-pink.png)
-![](/images/10-gray.png)
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/01-rose.png)
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/02-purple.png)
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/03-blue.png)
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/04-aqua.png)
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/05-green.png)
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/06-yellow.png)
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/07-orange.png)
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/08-coral.png)
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/09-pink.png)
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/10-gray.png)
 <br>
 # Instalação dos temas
 ## Se você já tem um arquivo themes.yaml
-Então é só copiar o código ou fazer download do [**themes.yaml** clicando aqui](/pt-br/themes.yaml).<br><br>
+Então é só copiar o código ou fazer download do [**themes.yaml** clicando aqui](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/src/pt-br/themes.yaml).<br><br>
 ## Se você AINDA NÃO tem um arquivo themes.yaml
 Então você precisa configurar seu arquivo **configuration.yaml**, acrescentando o código que segue abaixo:
 <br>
@@ -32,12 +32,19 @@ Então você precisa configurar seu arquivo **configuration.yaml**, acrescentand
 frontend:
   themes: !include themes.yaml
 ```
-Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo [**themes.yaml** clicando aqui](/pt-br/themes.yaml) e copie esse arquivo para sua pasta **config**. O arquivo **themes.yaml** deve estar na mesma pasta do arquivo **configuration.yaml**.<br><br>
+Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo [**themes.yaml** clicando aqui](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/src/pt-br/themes.yaml) e copie esse arquivo para sua pasta **config**. O arquivo **themes.yaml** deve estar na mesma pasta do arquivo **configuration.yaml**.<br><br>
+## Download dos backgrounds
+10 dos 40 temas possuem backgrounds que precisam ser baixados e copiados para o seu servidor do Home Assistant.<br>
+Baixe os backgrounds [**clicando aqui**](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/src/backgrounds.zip)<br>
+Extraia o arquivo **.zip** e copie a pasta **backgrounds** para dentro da pasta **config/www/**.
+ATENÇÃO! Se a pasta **www** ainda não existir, crie ela dentro da pasta **config**.
+<br><br>
+
 Feito isso, reinicie o seu Home Assistante e os temas estarão disponíveis para uso.
 <br><br>
 # Criando seletor automático para usar na interface (opcional)
 Vamos criar um seletor de temas para ser implementado na sua interface do usuário. É uma forma prática de alterar o tema instantaneamente em todos os dispositivos conectados ao seu Home Assistant. Veja como funciona no gif abaixo:
-![](/images/seletor.gif)
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/seletor.gif)
 
 ## 1ª Etapa - Criando o input_select
 O input_select será usado para criar a lista de seleção com os temas que eu criei.<br>
@@ -102,7 +109,7 @@ Resultado:
 ATENÇÃO! Se você nunca usou o Node-RED, [saiba mais clicando aqui.](https://github.com/hassio-addons/addon-node-red)<br><br>
 Vamos criar um flow no Node-RED para definir o tema automaticamente toda vez que você escolher um tema na sua interface.<br>
 É bem simples! Basta fazer o download do arquivo .json ou copiar o código e colar na janela de importação do Node-RED.<br>
-[Clique aqui para copiar ou fazer download do código dos fluxos do Node-RED](/src/seletor_themes_nodered.json)<br><br>
+[Clique aqui para copiar ou fazer download do código dos fluxos do Node-RED](/src/seletor_theme_nodered.json)<br><br>
 Após importar o flow para o seu Node-RED, clique em **Deply**<br><br>
 
 ## 3ª Etapa - Implementando o seletor na sua interface
