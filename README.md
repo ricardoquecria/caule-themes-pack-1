@@ -10,7 +10,10 @@ Quero pedir apenas 2 coisas para quem se beneficiar com esses temas:
 2) Siga meu estúdio de criação no instagram: [caulecriativo.com](http://caulecriativo.com)
 
 Faça bom aproveito dos temas =)<br><br>
-
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack1.png)
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack2.png)
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack3.png)
+![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack4.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/01-rose.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/02-purple.png)
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/03-blue.png)
