@@ -135,7 +135,7 @@ Resultado:
 
 Vamos criar um flow no Node-RED para definir o tema automaticamente toda vez que você escolher um tema na sua interface. É bem simples! Basta fazer o download do arquivo .json ou copiar o código e colar na janela de importação do Node-RED.
 
-[Clique aqui para copiar ou fazer download do código dos fluxos do Node-RED](/src/seletor_theme_nodered.json)
+[Clique aqui para copiar ou fazer download do código dos fluxos do Node-RED](https://raw.githubusercontent.com/orickcorreia/ha-themes-pack-2.0/master/src/seletor_theme_nodered.json)
 
 
 Após importar o flow para o seu Node-RED, clique em **Deply**<br><br>
