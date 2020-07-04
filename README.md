@@ -23,11 +23,9 @@ Faça bom aproveito dos temas =)<br><br>
 ![](/images/10-gray.png)
 <br>
 # Instalação
-<br>
 ## 1ª Estapa - Configurando os temas
-<br>
 ### Se você já tem um arquivo themes.yaml
-Então é só copiar o código ou fazer download do [themes.yaml clicando aqui](/pt-br/themes.yaml).<br><br>
+Então é só copiar o código ou fazer download do [**themes.yaml** clicando aqui](/pt-br/themes.yaml).<br><br>
 ### Se você AINDA NÃO tem um arquivo themes.yaml
 Então você precisa configurar seu arquivo **configuration.yaml**:
 <br>
@@ -35,3 +33,5 @@ Então você precisa configurar seu arquivo **configuration.yaml**:
 frontend:
   themes: !include themes.yaml
 ```
+Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo [**themes.yaml** clicando aqui](/pt-br/themes.yaml) e copie esse arquivo para sua pasta **config**. O arquivo **themes.yaml** deve estar na mesma pasta do arquivo **configuration.yaml**.<br><br>
+Feito isso, reinicie o seu Home Assistante e os temas estarão disponíveis para uso.
