@@ -30,11 +30,11 @@ Faça bom aproveito dos temas ☺️<br><br>
 
 # Instalação dos temas
 
-## * Voce já tem um arquivo themes.yaml?
+## Se você já tem um arquivo themes.yaml
 
-Então é só copiar o código ou fazer download do [**themes.yaml** clicando aqui](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/src/pt-br/themes.yaml).<br><br>
+Então é só copiar o código ou fazer download do **themes.yaml** [**clicando aqui**](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/src/pt-br/themes.yaml).<br><br>
 
-## * Você AINDA NÃO tem um arquivo themes.yaml?
+## Se você AINDA NÃO tem um arquivo themes.yaml
 
 Então você precisa configurar seu arquivo **configuration.yaml**, acrescentando o código que segue abaixo para que o seu Home Assistant busque os temas no arquivo **themes.yaml**:
 <br>
@@ -44,29 +44,19 @@ frontend:
   themes: !include themes.yaml
 ```
 
-Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo [**themes.yaml** clicando aqui](https://raw.githubusercontent.com/orickcorreia/ha-themes-pack-2.0/master/src/pt-br/themes.yaml) e copie esse arquivo para sua pasta **config**. O arquivo **themes.yaml** deve estar na mesma pasta do arquivo **configuration.yaml**.<br><br>
+Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo **themes.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/ha-themes-pack-2.0/master/src/pt-br/themes.yaml) e copie esse arquivo para sua pasta **config**. O arquivo **themes.yaml** deve estar na mesma pasta do arquivo **configuration.yaml**.<br><br>
 
 
 ## Download dos backgrounds
 10 dos 40 temas possuem backgrounds que precisam ser baixados e copiados para o seu servidor do Home Assistant.<br>
-Baixe os backgrounds [**clicando aqui.**](https://github.com/orickcorreia/ha-themes-pack-2.0/raw/master/src/backgrounds.zip) Extraia o arquivo **.zip** e copie a pasta **backgrounds** para dentro da pasta **config/www/**.<br>
+Baixe os backgrounds [**clicando aqui.**](https://github.com/orickcorreia/ha-themes-pack-2.0/raw/master/src/backgrounds.zip) Extraia o arquivo **.zip** e copie a pasta **backgrounds** para dentro da pasta **/config/www/**. O caminho final para a pasta dos arquivos deve ser **/config/www/backgrounds/<br>
 ATENÇÃO! Se a pasta **www** ainda não existir, crie ela dentro da pasta **config**.
 <br>
-ATENÇÃO! Para exibir os backgrounds vc vai precisar colocar esse código em cada views da sua interface lovelace:
-```
-background: var(--background-image)
-```
-Exemplo de como deve ficar:
-```
-  - title: Home #título da sua view
-    path: home #caminho para o url
-    background: var(--background-image) #configuração para exibir o background
-    icon: mdi:home-circle #icone da sua view
-    cards:
-```
 
 Feito isso, reinicie o seu Home Assistante e os temas estarão disponíveis para uso.
 <br><br>
+
+
 # Criando seletor automático para usar na interface (opcional)
 Vamos criar um seletor de temas para ser implementado na sua interface do usuário. É uma forma prática de alterar o tema instantaneamente em todos os dispositivos conectados ao seu Home Assistant. Veja como funciona no gif abaixo:<br>
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/seletor.gif)
