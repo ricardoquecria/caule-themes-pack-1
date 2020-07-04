@@ -51,7 +51,7 @@ After entering the configuration in your **configuration.yaml**, download the fi
 
 
 ## Download backgrounds
-10 of the 40 themes have backgrounds that need to be downloaded and copied to your Home Assistant server. Download the backgrounds [**clicking here.**](https://github.com/orickcorreia/ha-themes-pack-2.0/raw/master/src/backgrounds.zip) Extract the file **.Zip** and copy the **backgrounds** folder into the **/config/www/** folder. The final path to the file folder should be **/config/www/backgrounds/**
+10 of the 40 themes have backgrounds that need to be downloaded and copied to your Home Assistant server. Download the backgrounds [**clicking here.**](https://github.com/orickcorreia/ha-themes-pack-2.0/raw/master/src/backgrounds.zip) Extract the file **.zip** and copy the **backgrounds** folder into the **config/www/** folder. The final path to the file folder should be **config/www/backgrounds/**
 
 
 *ATTENTION! If your **www** folder does not yet exist, create it within the **config** folder.*
@@ -67,14 +67,16 @@ We will create a theme selector to be implemented in your user interface. It is 
 
 ![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/seletor.gif)
 
-## 1ª Etapa - Criando o input_select
-O input_select será usado para criar a lista de seleção com os temas que eu criei.<br>
-Se você nunca usou input select, [saiba mais clicando aqui.](https://www.home-assistant.io/integrations/input_select)<br><br>
+## 1st Step - Creating the input_select
+The input_select will be used to create the selection list with the themes that I created. <br>
+If you've never used input select, [learn more by clicking here.](https://www.home-assistant.io/integrations/input_select)
+
+
 ```
 input_select:
 
   themes:
-    name: 'Temas'
+    name: 'Themes'
     icon: mdi:format-paint
     options:
       - Black Rose - Flat
@@ -119,31 +121,31 @@ input_select:
       - Black Gray - Transparent      
       - Default
 ```
-Reinicie o seu Home Assistant para que o input_select seja criado.
+Restart your Home Assistant so that the input_select is created.
 
 
-Resultado:
+Result:
 * input_select.themes
 
 
 
-## 2ª Etapa - Automação do seletor de temas no Node-RED
+## 2rd Step - Automation of the theme selector in Node-RED
 
-**ATENÇÃO!** Se você nunca usou o Node-RED, [saiba mais clicando aqui.](https://github.com/hassio-addons/addon-node-red)
-
-
-Vamos criar um flow no Node-RED para definir o tema automaticamente toda vez que você escolher um tema na sua interface. É bem simples! Basta fazer o download do arquivo .json ou copiar o código e colar na janela de importação do Node-RED.
-
-[Clique aqui para copiar ou fazer download do código dos fluxos do Node-RED](/src/seletor_theme_nodered.json)
+**WARNING!** If you've never used Node-RED, [learn more by clicking here.](https://github.com/hassio-addons/addon-node-red)
 
 
-Após importar o flow para o seu Node-RED, clique em **Deply**<br><br>
+We will create a flow in Node-RED to define the theme automatically every time you choose a theme in your interface. It's very simple! Just download the .json file or copy the code and paste it into the Node-RED import window.
 
-## 3ª Etapa - Implementando o seletor na sua interface
+[Click here to copy or download the code for Node-RED flows](https://raw.githubusercontent.com/orickcorreia/ha-themes-pack-2.0/master/src/seletor_theme_nodered.json)
 
-Agora é só inserir o código do seletor na sua interface.
-* Se você usa a interface no Modo YAML, copie o código e insira no seu **ui-lovelace.yaml**
-* Se você usa a interface no modo automático, vá até o modo de edição da sua interface, escolha a opção "manual" lá no final, depois copie e cole o código abaixo.
+
+After importing the flow to your Node-RED, click **Deply** <br> <br>
+
+## 3rd Step - Implementing the selector in your interface
+
+Now just insert the selector code in your interface.
+* If you use the interface in YAML Mode, copy the code and insert it into your **ui-lovelace.yaml**
+* If you use the interface in automatic mode, go to the editing mode of your interface, choose the "manual" option at the end, then copy and paste the code below.
 
 ``` 
 - type: entities
@@ -153,5 +155,5 @@ Agora é só inserir o código do seletor na sua interface.
 
 ``` 
 
-### Agora é só aproveitar!
-### Se tudo der certo, [mande um print](http://api.whatsapp.com/send?phone=5565999593909) ☺️
+### Now just enjoy it!
+### If everything goes well, [send a print](http://api.whatsapp.com/send?phone=5565999593909) ☺️
