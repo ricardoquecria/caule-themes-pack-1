@@ -40,7 +40,19 @@ Após inserir a configuração no seu **configuration.yaml**, faça o download d
 10 dos 40 temas possuem backgrounds que precisam ser baixados e copiados para o seu servidor do Home Assistant.<br>
 Baixe os backgrounds [**clicando aqui.**](https://github.com/orickcorreia/ha-themes-pack-2.0/raw/master/src/backgrounds.zip) Extraia o arquivo **.zip** e copie a pasta **backgrounds** para dentro da pasta **config/www/**.<br>
 ATENÇÃO! Se a pasta **www** ainda não existir, crie ela dentro da pasta **config**.
-<br><br>
+<br>
+ATENÇÃO! Para exibir os backgrounds vc vai precisar colocar esse código em cada views da sua interface lovelace:
+```
+background: var(--background-image)
+```
+Exemplo de como deve ficar:
+```
+  - title: Home #título da sua view
+    path: home #caminho para o url
+    background: var(--background-image) #configuração para exibir o background
+    icon: mdi:home-circle #icone da sua view
+    cards:
+```
 
 Feito isso, reinicie o seu Home Assistante e os temas estarão disponíveis para uso.
 <br><br>
