@@ -47,11 +47,11 @@ frontend:
   themes: !include themes.yaml
 ```
 
-After entering the configuration in your **configuration.yaml**, download the file **themes.yaml** [**clicking here**](https://raw.githubusercontent.com/orickcorreia/ha-themes -pack-2.0 / master / src / en-us / themes.yaml) and copy this file to your ** config ** folder. The ** themes.yaml ** file must be in the same folder as the ** configuration.yaml ** file.
+After entering the configuration in your **configuration.yaml**, download the file **themes.yaml** [**clicking here**](https://raw.githubusercontent.com/orickcorreia/ha-themes -pack-2.0/master / src / en-us / themes.yaml) and copy this file to your ** config ** folder. The ** themes.yaml ** file must be in the same folder as the ** configuration.yaml ** file.
 
 
 ## Download backgrounds
-10 of the 40 themes have backgrounds that need to be downloaded and copied to your Home Assistant server. Download the backgrounds [**clicking here.**](https://github.com/orickcorreia/ha-themes-pack-2.0/raw/master/src/backgrounds.zip) Extract the file **. Zip ** and copy the ** backgrounds ** folder into the ** / config / www / ** folder. The final path to the file folder should be ** / config / www / backgrounds / **
+10 of the 40 themes have backgrounds that need to be downloaded and copied to your Home Assistant server. Download the backgrounds [**clicking here.**](https://github.com/orickcorreia/ha-themes-pack-2.0/raw/master/src/backgrounds.zip) Extract the file **.Zip** and copy the **backgrounds** folder into the **/config/www/** folder. The final path to the file folder should be **/config/www/backgrounds/**
 
 
 *ATTENTION! If your **www** folder does not yet exist, create it within the **config** folder.*
