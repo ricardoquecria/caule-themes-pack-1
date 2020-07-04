@@ -99,9 +99,24 @@ Resultado:
 
 ## 2ª Etapa - Automação do seletor de temas no Node-RED
 
-ATENÇÃO! Se você nunca usou o Node-RED, [saiba mais clicando aqui](https://github.com/hassio-addons/addon-node-red)<br><br>
+ATENÇÃO! Se você nunca usou o Node-RED, [saiba mais clicando aqui.](https://github.com/hassio-addons/addon-node-red)<br><br>
 Vamos criar um flow no Node-RED para definir o tema automaticamente toda vez que você escolher um tema na sua interface.<br>
 É bem simples! Basta fazer o download do arquivo .json ou copiar o código e colar na janela de importação do Node-RED.<br>
 [Clique aqui para copiar ou fazer download do código dos fluxos do Node-RED](/src/seletor_themes_nodered.json)<br><br>
-Após importar o flow para o seu Node-RED, clique em **Deply**
+Após importar o flow para o seu Node-RED, clique em **Deply**<br><br>
 
+## 3ª Etapa - Implementando o seletor na sua interface
+
+Agora é só inserir o código do seletor na sua interface.
+* Se você usa a interface no Modo YAML, copie o código e insira no seu **ui-lovelace.yaml**
+* Se você usa a interface no modo automático, vá até o modo de edição da sua interface, escolha a opção "manual" lá no final, depois copie e cole o código abaixo.
+
+``` 
+- type: entities
+  show_header_toggle: false
+  entities:
+    - entity: input_select.themes
+
+``` 
+
+### Agora é só aproveitar!
