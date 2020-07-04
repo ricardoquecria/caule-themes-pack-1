@@ -1,2 +1,0 @@
-![](rose.jpg)
-![](rose.jpg)
