@@ -70,6 +70,7 @@ Vamos criar um seletor de temas para ser implementado na sua interface do usuár
 
 ## 1ª Etapa - Criando o input_select
 O input_select será usado para criar a lista de seleção com os temas que eu criei.<br>
+Insira esse código no seu arquivo **configuration.yaml**<br>
 Se você nunca usou input select, [saiba mais clicando aqui.](https://www.home-assistant.io/integrations/input_select)<br><br>
 ```
 input_select:
