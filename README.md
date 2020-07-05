@@ -1,4 +1,10 @@
 # Themes Pack 2.0 - by caulecriativo.com
+
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
+[![homeassistant_community](https://img.shields.io/badge/HA%20community-forum-brightgreen)](https://community.home-assistant.io/t/themes-pack-2-0-by-caulecriativo-com/209436)
+[![Github Stars](https://img.shields.io/github/stars/basnijholt/lovelace-ios-dark-mode-theme)](https://github.com/basnijholt/lovelace-ios-dark-mode-theme)
+
+
 [Versão em Português](README-PT-BR.md)
 
 Created by Ricardo Correia for the Home Assistant Brasil community.
