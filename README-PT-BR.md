@@ -5,7 +5,11 @@
 [![homeassistant_community](https://img.shields.io/badge/HA%20community-forum-brightgreen)](https://community.home-assistant.io/t/themes-pack-2-0-by-caulecriativo-com/209436)
 [![Github Stars](https://img.shields.io/github/stars/orickcorreia/ha-themes-pack-2.0?logo=github&style=social)](https://github.com/orickcorreia/ha-themes-pack-2.0)
 [![Github Follow](https://img.shields.io/github/followers/orickcorreia?logo=github&style=social)](https://github.com/orickcorreia)
-<br>
+
+
+
+
+
 [English version](README.md)
 
 Criado por Ricardo Correia para a comunidade Home Assistant Brasil.
