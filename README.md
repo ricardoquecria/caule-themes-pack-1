@@ -69,6 +69,7 @@ We will create a theme selector to be implemented in your user interface. It is 
 
 ## 1st Step - Creating the input_select
 The input_select will be used to create the selection list with the themes that I created. <br>
+Insert this code into your file **configuration.yaml** <br>
 If you've never used input select, [learn more by clicking here.](https://www.home-assistant.io/integrations/input_select)
 
 
