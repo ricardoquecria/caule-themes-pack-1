@@ -155,5 +155,10 @@ Now just insert the selector code in your interface.
 
 ``` 
 
+## 4rd Step - Setting the theme "Backend-selected"
+
+Change the theme in the user's profile to "Backend-selected". This way, all connected devices with the theme "Backend-selected" will have their themes changed synchronously with the theme selector you just created.
+
+
 ### Now just enjoy it!
 ### If everything goes well, [send a print](http://api.whatsapp.com/send?phone=5565999593909) ☺️
