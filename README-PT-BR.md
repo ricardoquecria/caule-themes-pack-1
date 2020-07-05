@@ -154,5 +154,11 @@ Agora é só inserir o código do seletor na sua interface.
 
 ``` 
 
+## 4ª Etapa - Configurando o tema "Backend-selected"
+
+Altere o tema no perfil do usuário para "Backend-selected". Dessa forma todos os dispositivos conectados que estiverem com o tema "Backend-selected" terão seus temas alterados sincronizadamente com o seletor de temas que você acabou de criar.
+
+
+
 ### Agora é só aproveitar!
 ### Se tudo der certo, [mande um print](http://api.whatsapp.com/send?phone=5565999593909) ☺️
