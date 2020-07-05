@@ -1,8 +1,13 @@
 # Themes Pack 2.0 - by caulecriativo.com
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
+[![ha brasil](https://img.shields.io/static/v1?label=HA%20Brasil&message=forum&color=green)](https://forum.homeassistantbrasil.com.br/t/themes-pack-2-0-by-caulecriativo-com/1422)
 [![homeassistant_community](https://img.shields.io/badge/HA%20community-forum-brightgreen)](https://community.home-assistant.io/t/themes-pack-2-0-by-caulecriativo-com/209436)
-[![Github Stars](https://img.shields.io/github/stars/orickcorreia/ha-themes-pack-2.0)](https://github.com/orickcorreia/ha-themes-pack-2.0)
+[![Github Stars](https://img.shields.io/github/stars/orickcorreia/ha-themes-pack-2.0?logo=github&style=social)](https://github.com/orickcorreia/ha-themes-pack-2.0)
+[![Github Follow](https://img.shields.io/github/followers/orickcorreia?logo=github&style=social)](https://github.com/orickcorreia)
+
+
+
 
 
 [Versão em Português](README-PT-BR.md)
