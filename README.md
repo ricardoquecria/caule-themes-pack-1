@@ -12,23 +12,23 @@ I want to ask only 2 things for those who benefit from these themes:
 Make good use of themes ☺️
 
 
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack1.png)
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack2.png)
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack3.png)
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/pack4.png)
+![](images/pack1.png)
+![](images/pack2.png)
+![](images/pack3.png)
+![](images/pack4.png)
 
 
 
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/01-rose.png)
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/02-purple.png)
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/03-blue.png)
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/04-aqua.png)
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/05-green.png)
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/06-yellow.png)
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/07-orange.png)
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/08-coral.png)
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/09-pink.png)
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/10-gray.png)
+![](images/01-rose.png)
+![](images/02-purple.png)
+![](images/03-blue.png)
+![](images/04-aqua.png)
+![](images/05-green.png)
+![](images/06-yellow.png)
+![](images/07-orange.png)
+![](images/08-coral.png)
+![](images/09-pink.png)
+![](images/10-gray.png)
 
 
 # Installation of themes
