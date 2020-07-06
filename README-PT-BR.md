@@ -19,7 +19,7 @@ Criado por Ricardo Correia para a comunidade Home Assistant Brasil.
   - Black Glass
   - Black
   - Dark
-  - White
+  - Light
 * 40 temas no total;
 * Ícones animados para o card de previsão do tempo;
 * E de bônus um seletor de temas automático para sua interface.
