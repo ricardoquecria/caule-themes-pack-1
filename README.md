@@ -24,11 +24,9 @@ Created by Ricardo Correia for the Home Assistant Brasil community.
 * Animated icons for the weather forecast card;
 * And a bonus automatic theme selector for your interface.
 
-**It will soon be available for installation in the HACS (Home Assistant Community Store)**
-
 I want to ask only 2 things for those who benefit from these themes:
 
-1) Join the HABR community on Discord: [habr.ml](http://habr.ml)
+1) Contribute to my work! [Buy Me A Coffee](https://www.buymeacoffee.com/orickcorreia)
 2) Follow my creative studio on instagram: [caulecriativo.com](http://caulecriativo.com)
 
 Make good use of themes ☺️
@@ -73,29 +71,36 @@ Make good use of themes ☺️
 </div>
 
 
-# Manual installation of themes
+<br><br>
+# If you STILL DON'T have the "themes" folder
 
-## If you already have the "themes" folder
-
-Then download the **caule-themes-pack-1.yaml** [**clicking here**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml) and copy the file to your **themes** folder
-
-
-## If you STILL DON'T have the "themes" folder
-
-Then you need to configure your **configuration.yaml** file, adding the code below for your Home Assistant to search for themes in the **themes** folder:
-
+You need to configure your **configuration.yaml** file, adding the code below for your Home Assistant to search for themes in the **themes** folder:
 
 ```
 frontend:
   themes: !include_dir_merge_named themes
 ```
 
-After inserting the configuration into your **configuration.yaml**, download the file **caule-themes-pack-1.yaml** [**clicking here**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml)
+**ATTENTION! It is necessary to restart after this configuration!**
 
-Copy the **caule-themes-pack-1.yaml** file to your **themes** folder. If your **themes** folder does not yet exist, you must create it within the **config** folder
+# Installation via HACS (Home Assistant Community Store)
+(If you are not HACS) [Learn how to install](https://hacs.xyz/docs/installation/manual)
+
+* Go to the HACS Community Store
+* Click on the **"Frontend"** option
+* Click on the **(+)** button
+* Search for **"Caule Themes Pack"**
+* And finally click on **"Install"** button
 
 
-## Download backgrounds and icons
+# Manual installation
+
+Then download the **caule-themes-pack-1.yaml** [**clicking here**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml) and copy the file to your **themes** folder
+
+If your **themes** folder does not yet exist, you must create it within the **config** folder
+
+
+## Download backgrounds and icons (only required for manual installation)
 10 of the 40 themes have backgrounds and all themes use animated icons for the weather forecast card. These files need to be downloaded and copied to your Home Assistant server.
 
 1. Download the backgrounds and icons [**clicking here.**](https://github.com/orickcorreia/caule-themes-pack-1/raw/master/src/backgrounds-icons.zip)
