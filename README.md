@@ -1,5 +1,5 @@
 # Caule Themes Pack 1 - by caulecriativo.com
-<!---[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)--->
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square)](https://github.com/custom-components/hacs)
 [![ha brasil](https://img.shields.io/static/v1?label=HA%20Brasil&message=forum&color=green&style=flat-square)](https://forum.homeassistantbrasil.com.br/t/caule-themes-pack-1-by-caulecriativo-com/1422)
 [![ha brasil discord](https://img.shields.io/static/v1?label=HA%20Brasil&message=discord&color=blueviolet&style=flat-square)](http://habr.ml)
 [![homeassistant_community](https://img.shields.io/badge/HA%20community-forum-brightgreen?style=flat-square)](https://community.home-assistant.io/t/caule-themes-pack-1-by-caulecriativo-com/209436)
@@ -95,8 +95,7 @@ frontend:
 
 # Manual installation
 
-Then download the **caule-themes-pack-1.yaml** [**clicking here**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml) and copy the file to your **themes** folder
-
+Then download the **caule-themes-pack-1.yaml** [**clicking here**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml) and copy the file to your **themes** folder.<br>
 If your **themes** folder does not yet exist, you must create it within the **config** folder
 
 
