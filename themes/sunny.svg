@@ -52,47 +52,47 @@
 }
 @keyframes am-weather-sun-shiny {
 	0% {
-		stroke-dasharray: 3px 10px;
+		stroke-dasharray: 2px 10px;
 		stroke-dashoffset: 0px;
-	}
-	5% {
-		stroke-dasharray: 0.1px 10px;
-		stroke-dashoffset: -1px;
 	}
 	10% {
-		stroke-dasharray: 3px 10px;
-		stroke-dashoffset: 0px;
-	}
-	15% {
 		stroke-dasharray: 0.1px 10px;
 		stroke-dashoffset: -1px;
 	}
 	20% {
-		stroke-dasharray: 3px 10px;
+		stroke-dasharray: 2px 10px;
 		stroke-dashoffset: 0px;
-	}
-	25% {
-		stroke-dasharray: 0.1px 10px;
-		stroke-dashoffset: -1px;
 	}
 	30% {
-		stroke-dasharray: 3px 10px;
-		stroke-dashoffset: 0px;
-	}
-	35% {
 		stroke-dasharray: 0.1px 10px;
 		stroke-dashoffset: -1px;
 	}
 	40% {
-		stroke-dasharray: 3px 10px;
+		stroke-dasharray: 2px 10px;
 		stroke-dashoffset: 0px;
 	}
-	45% {
+	50% {
 		stroke-dasharray: 0.1px 10px;
 		stroke-dashoffset: -1px;
 	}
-	50% {
-		stroke-dasharray: 3px 10px;
+	60% {
+		stroke-dasharray: 2px 10px;
+		stroke-dashoffset: 0px;
+	}
+	70% {
+		stroke-dasharray: 0.1px 10px;
+		stroke-dashoffset: -1px;
+	}
+	80% {
+		stroke-dasharray: 2px 10px;
+		stroke-dashoffset: 0px;
+	}
+	90% {
+		stroke-dasharray: 0.1px 10px;
+		stroke-dashoffset: -1px;
+	}
+	100% {
+		stroke-dasharray: 2px 10px;
 		stroke-dashoffset: 0px;
 	}
 }

@@ -5,10 +5,10 @@
 		-moz-animation-name: fog_1_animation;
 		-ms-animation-name: fog_1_animation;
 		animation-name: fog_1_animation;
-		-webkit-animation-duration: 20s;
-		-moz-animation-duration: 20s;
-		-ms-animation-duration: 20s;
-		animation-duration: 20s;
+		-webkit-animation-duration: 15s;
+		-moz-animation-duration: 15s;
+		-ms-animation-duration: 15s;
+		animation-duration: 15s;
 		-webkit-animation-timing-function: linear;
 		-moz-animation-timing-function: linear;
 		-ms-animation-timing-function: linear;
@@ -43,10 +43,10 @@
 		-moz-animation-name: fog_2_animation;
 		-ms-animation-name: fog_2_animation;
 		animation-name: fog_2_animation;
-		-webkit-animation-duration: 20s;
-		-moz-animation-duration: 20s;
-		-ms-animation-duration: 20s;
-		animation-duration: 20s;
+		-webkit-animation-duration: 15s;
+		-moz-animation-duration: 15s;
+		-ms-animation-duration: 15s;
+		animation-duration: 15s;
 		-webkit-animation-timing-function: linear;
 		-moz-animation-timing-function: linear;
 		-ms-animation-timing-function: linear;
@@ -78,9 +78,40 @@
 		100% {
 			transform: translate(4px,7px)
 		}
-	}]]></style>
+	}
+	#cloud {
+		-webkit-animation-name: cloud_animation;
+		-moz-animation-name: cloud_animation;
+		-ms-animation-name: cloud_animation;
+		animation-name: cloud_animation;
+		-webkit-animation-duration: 8s;
+		-moz-animation-duration: 8s;
+		-ms-animation-duration: 8s;
+		animation-duration: 8s;
+		-webkit-animation-timing-function: linear;
+		-moz-animation-timing-function: linear;
+		-ms-animation-timing-function: linear;
+		animation-timing-function: linear;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+	}
+	@keyframes cloud_animation {
+		0% {
+			transform: translate(-12px,-18px)
+		}
+		50% {
+			transform: translate(-9px,-18px)
+		}
+		100% {
+			transform: translate(-12px,-18px)
+		}
+	}
+	
+]]></style>
 	<g>
-		<g transform="translate(-12,-18)">
+		<g id="cloud" transform="translate(-12,-18)">
 			<g>
 				<path d="M47.7,35.4c0-4.6-3.7-8.2-8.2-8.2c-1,0-1.9,0.2-2.8,0.5c-0.3-3.4-3.1-6.2-6.6-6.2c-3.7,0-6.7,3-6.7,6.7c0,0.8,0.2,1.6,0.4,2.3	c-0.3-0.1-0.7-0.1-1-0.1c-3.7,0-6.7,3-6.7,6.7c0,3.6,2.9,6.6,6.5,6.7l17.2,0C44.2,43.3,47.7,39.8,47.7,35.4z" fill="#d4d4d4"/>
 			</g>
