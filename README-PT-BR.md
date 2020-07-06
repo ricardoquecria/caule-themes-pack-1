@@ -1,9 +1,9 @@
-# Caule Themes Pack 1.1 - by caulecriativo.com
+# Caule Themes Pack 1 - by caulecriativo.com
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 [![ha brasil](https://img.shields.io/static/v1?label=HA%20Brasil&message=forum&color=green)](https://forum.homeassistantbrasil.com.br/t/themes-pack-2-0-by-caulecriativo-com/1422)
 [![ha brasil discord](https://img.shields.io/static/v1?label=HA%20Brasil&message=discord&color=blueviolet)](http://habr.ml)
 [![homeassistant_community](https://img.shields.io/badge/HA%20community-forum-brightgreen)](https://community.home-assistant.io/t/themes-pack-2-0-by-caulecriativo-com/209436)
-[![Github Stars](https://img.shields.io/github/stars/orickcorreia/caule-themes-pack-1.1?logo=github&style=social)](https://github.com/orickcorreia/caule-themes-pack-1.1)
+[![Github Stars](https://img.shields.io/github/stars/orickcorreia/caule-themes-pack-1?logo=github&style=social)](https://github.com/orickcorreia/caule-themes-pack-1)
 [![Github Follow](https://img.shields.io/github/followers/orickcorreia?logo=github&style=social)](https://github.com/orickcorreia)
 
 
@@ -16,10 +16,10 @@
 Criado por Ricardo Correia para a comunidade Home Assistant Brasil.
 * 10 cores modernas;
 * 4 categorias de estilos;
-  - Black Transparent
-  - Black Flat
-  - Dark Flat
-  - White Flat
+  - Black Glass
+  - Black
+  - Dark
+  - White
 * 40 temas no total;
 * Ícones animados para o card de previsão do tempo;
 * E de bônus um seletor de temas automático para sua interface.
@@ -75,7 +75,7 @@ Faça bom aproveito dos temas ☺️
 
 ## Se você já tem a pasta "themes"
 
-Então é só copiar o código ou fazer download do **themes.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1.1/master/src/caule-themes-pack.yaml).
+Então é só copiar o código ou fazer download do **themes.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml).
 
 
 ## Se você AINDA tem a pasta "themes"
@@ -88,17 +88,17 @@ frontend:
   themes: !include_dir_merge_named themes
 ```
 
-Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo **caule-themes-pack.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1.1/master/src/caule-themes-pack.yaml)
+Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo **caule-themes-pack-1.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml)
 
-Copie o arquivo **caule-themes-pack.yaml** para sua pasta **themes**. Se sua pasta **themes** ainda não existir, você deve cria-la dentro da pasta **config**
+Copie o arquivo **caule-themes-pack-1.yaml** para sua pasta **themes**. Se sua pasta **themes** ainda não existir, você deve cria-la dentro da pasta **config**
 
 
 ## Download dos backgrounds e dos ícones
 10 dos 40 temas possuem backgrounds e todos os temas usam ícones animados para o card de previsão do tempo. Esses arquivos precisam ser baixados e copiados para o seu servidor do Home Assistant.
 
-1. Baixe os backgrounds e ícones [**clicando aqui.**](https://github.com/orickcorreia/caule-themes-pack-1.1/raw/master/src/background-icons.zip) 
+1. Baixe os backgrounds e ícones [**clicando aqui.**](https://github.com/orickcorreia/caule-themes-pack-1/raw/master/src/background-icons.zip) 
 2. Extraia o arquivo **.zip**
-3. Copie a pasta **caule-themes-pack** para dentro da pasta **config/www/**. O caminho final para a pasta dos arquivos deve ser **config/www/caule-themes-pack/**
+3. Copie a pasta **caule-themes-pack** para dentro da pasta **config/www/**. O caminho final para a pasta dos arquivos deve ser **config/www/caule-themes-pack-1/**
 
 *ATENÇÃO! Se sua pasta **www** ainda não existir, crie ela dentro da pasta **config**.*
 
@@ -123,46 +123,46 @@ input_select:
     name: 'Temas'
     icon: mdi:format-paint
     options:
-      - Black Rose - Flat
-      - Black Purple - Flat
-      - Black Blue - Flat 
-      - Black Aqua - Flat
-      - Black Green - Flat
-      - Black Yellow - Flat
-      - Black Orange - Flat
-      - Black Coral - Flat
-      - Black Pink - Flat
-      - Black Gray - Flat
-      - Dark Rose - Flat
-      - Dark Purple - Flat
-      - Dark Blue - Flat 
-      - Dark Aqua - Flat
-      - Dark Green - Flat
-      - Dark Yellow - Flat
-      - Dark Orange - Flat
-      - Dark Coral - Flat
-      - Dark Pink - Flat
-      - Dark Gray - Flat
-      - Light Rose - Flat
-      - Light Purple - Flat
-      - Light Blue - Flat 
-      - Light Aqua - Flat
-      - Light Green - Flat
-      - Light Yellow - Flat
-      - Light Orange - Flat
-      - Light Coral - Flat
-      - Light Pink - Flat
-      - Light Gray - Flat
-      - Black Rose - Transparent
-      - Black Purple - Transparent
-      - Black Blue - Transparent 
-      - Black Aqua - Transparent
-      - Black Green - Transparent
-      - Black Yellow - Transparent
-      - Black Orange - Transparent
-      - Black Coral - Transparent
-      - Black Pink - Transparent
-      - Black Gray - Transparent      
+      - Caule Black Rose
+      - Caule Black Purple
+      - Caule Black Blue 
+      - Caule Black Aqua
+      - Caule Black Green
+      - Caule Black Yellow
+      - Caule Black Orange
+      - Caule Black Coral
+      - Caule Black Pink
+      - Caule Black Gray
+      - Caule Dark Rose
+      - Caule Dark Purple
+      - Caule Dark Blue 
+      - Caule Dark Aqua
+      - Caule Dark Green
+      - Caule Dark Yellow
+      - Caule Dark Orange
+      - Caule Dark Coral
+      - Caule Dark Pink
+      - Caule Dark Gray
+      - Caule Light Rose
+      - Caule Light Purple
+      - Caule Light Blue 
+      - Caule Light Aqua
+      - Caule Light Green
+      - Caule Light Yellow
+      - Caule Light Orange
+      - Caule Light Coral
+      - Caule Light Pink
+      - Caule Light Gray
+      - Caule Black Rose Glass
+      - Caule Black Purple Glass
+      - Caule Black Blue Glass 
+      - Caule Black Aqua Glass
+      - Caule Black Green Glass
+      - Caule Black Yellow Glass
+      - Caule Black Orange Glass
+      - Caule Black Coral Glass
+      - Caule Black Pink Glass
+      - Caule Black Gray Glass      
       - Default
 ```
 Reinicie o seu Home Assistant para que o input_select seja criado.
