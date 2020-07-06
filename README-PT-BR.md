@@ -216,6 +216,7 @@ Altere o tema no perfil do usuário para "Backend-selected". Dessa forma todos o
 
 ### Agora é só aproveitar!
 ### Se tudo der certo, [mande um print](http://api.whatsapp.com/send?phone=5565999593909) ☺️
+<a href="https://www.buymeacoffee.com/orickcorreia" target="_blank">
+<img src="https://cdn.buymeacoffee.com/buttons/lato-black.png"  width="200px" alt="Buy Me A Coffee" ></a>
 
-
-Ícones criados pela [amCharts](https://www.amcharts.com/free-animated-svg-weather-icons/) e modificados por mim.
+Ícones criados pela [amCharts](https://www.amcharts.com/free-animated-svg-weather-icons) e modificados por mim.
