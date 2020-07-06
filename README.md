@@ -11,7 +11,7 @@
 
 
 
-
+[Versão em português](README-PT-BR.md)
 
 Created by Ricardo Correia for the Home Assistant BraZil community.
 * 10 modern colors;
