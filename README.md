@@ -53,23 +53,23 @@ Make good use of themes ☺️
 ![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/10-gray.png)
 
 # Animated icons included
-![](docs/animated-icons.gif)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/animated-icons.gif)
 
 <div>
-<img src="themes/clear-night.svg" width="100px">
-<img src="themes/sunny.svg" width="100px">
-<img src="themes/cloudy.svg" width="100px">
-<img src="themes/fog.svg" width="100px">
-<img src="themes/hail.svg" width="100px">
-<img src="themes/lightning-rainy.svg" width="100px">
-<img src="themes/lightning.svg" width="100px"><br>
-<img src="themes/partlycloudy.svg" width="100px">
-<img src="themes/pouring.svg" width="100px">
-<img src="themes/rainy.svg" width="100px">
-<img src="themes/windy-variant.svg" width="100px">
-<img src="themes/windy.svg" width="100px">
-<img src="themes/snowy.svg" width="100px">
-<img src="themes/snowy-rainy.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/clear-night.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/sunny.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/cloudy.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/fog.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/hail.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/lightning-rainy.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/lightning.svg" width="100px"><br>
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/partlycloudy.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/pouring.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/rainy.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/windy-variant.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/windy.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/snowy.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/snowy-rainy.svg" width="100px">
 </div>
 
 
@@ -112,7 +112,7 @@ Now **restart your Home Assistant** and the themes will be available for use.
 We will create a theme selector to be implemented in your user interface. It is a practical way to change the theme instantly on all devices connected to your Home Assistant. See how it works in the gif below:
 
 
-![](docs/seletor.gif)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/seletor.gif)
 
 ## 1st Step - Creating the input_select
 The input_select will be used to create the selection list with the themes that I created. <br>
@@ -183,7 +183,7 @@ Result:
 
 We will create a flow in Node-RED to define the theme automatically every time you choose a theme in your interface. It's very simple! Just download the .json file or copy the code and paste it into the Node-RED import window.
 
-![](docs/nodered.gif)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/nodered.gif)
 
 [Click here to copy or download the code for Node-RED flows](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/seletor_theme_nodered.json)
 
