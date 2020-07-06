@@ -77,10 +77,10 @@ Faça bom aproveito dos temas ☺️
 
 ## Se você já tem a pasta "themes"
 
-Então é só copiar o código ou fazer download do **themes.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml).
+Então faça o download do **caule-themes-pack-1.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml) e copie o arquivo para sua pasta **themes**
 
 
-## Se você AINDA tem a pasta "themes"
+## Se você AINDA NÃO tem a pasta "themes"
 
 Então você precisa configurar seu arquivo **configuration.yaml**, acrescentando o código que segue abaixo para que o seu Home Assistant busque os temas na pasta **themes**:
 
@@ -184,7 +184,7 @@ Vamos criar um flow no Node-RED para definir o tema automaticamente toda vez que
 
 ![](docs/nodered.gif)
 
-[Clique aqui para copiar ou fazer download do código dos fluxos do Node-RED](https://raw.githubusercontent.com/orickcorreia/ha-themes-pack-2.0/master/src/seletor_theme_nodered.json)
+[Clique aqui para copiar ou fazer download do código dos fluxos do Node-RED](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/seletor_theme_nodered.json)
 
 
 Após importar o flow para o seu Node-RED, clique em **Deply**<br><br>
