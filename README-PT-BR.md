@@ -14,7 +14,17 @@
 [English version](README.md)
 
 Criado por Ricardo Correia para a comunidade Home Assistant Brasil.
-<br>São 10 cores modernas, totalizando 40 temas diferentes!
+* 10 cores modernas;
+* 4 categorias de estilos;
+  - Black Transparent
+  - Black Flat
+  - Dark Flat
+  - White Flat
+* 40 temas no total;
+* Ícones animados para o card de previsão do tempo;
+* E de bônus um seletor de temas automático para sua interface.
+
+**Em breve estará disponível para instalação no HACS (Home Assistant Community Store)**
 
 Quero pedir apenas 2 coisas para quem se beneficiar com esses temas:
 
@@ -43,32 +53,54 @@ Faça bom aproveito dos temas ☺️
 ![](images/10-gray.png)
 
 
-# Instalação dos temas
+<div>
+<img src="themes/clear-night.svg" width="100px">
+<img src="themes/sunny.svg" width="100px">
+<img src="themes/cloudy.svg" width="100px">
+<img src="themes/fog.svg" width="100px">
+<img src="themes/hail.svg" width="100px">
+<img src="themes/lightning-rainy.svg" width="100px">
+<img src="themes/lightning.svg" width="100px"><br>
+<img src="themes/partlycloudy.svg" width="100px">
+<img src="themes/pouring.svg" width="100px">
+<img src="themes/rainy.svg" width="100px">
+<img src="themes/windy-variant.svg" width="100px">
+<img src="themes/windy.svg" width="100px">
+<img src="themes/snowy.svg" width="100px">
+<img src="themes/snowy-rainy.svg" width="100px">
+</div>
 
-## Se você já tem um arquivo themes.yaml
 
-Então é só copiar o código ou fazer download do **themes.yaml** [**clicando aqui**](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/src/pt-br/themes.yaml).
+# Instalação manual dos temas
+
+## Se você já tem a pasta "themes"
+
+Então é só copiar o código ou fazer download do **themes.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1.1/master/src/caule-themes-pack.yaml).
 
 
-## Se você AINDA NÃO tem um arquivo themes.yaml
+## Se você AINDA tem a pasta "themes"
 
-Então você precisa configurar seu arquivo **configuration.yaml**, acrescentando o código que segue abaixo para que o seu Home Assistant busque os temas no arquivo **themes.yaml**:
+Então você precisa configurar seu arquivo **configuration.yaml**, acrescentando o código que segue abaixo para que o seu Home Assistant busque os temas na pasta **themes**:
 
 
 ```
 frontend:
-  themes: !include themes.yaml
+  themes: !include_dir_merge_named themes
 ```
 
-Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo **themes.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/ha-themes-pack-2.0/master/src/pt-br/themes.yaml) e copie esse arquivo para sua pasta **config**. O arquivo **themes.yaml** deve estar na mesma pasta do arquivo **configuration.yaml**.
+Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo **caule-themes-pack.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1.1/master/src/caule-themes-pack.yaml)
+
+Copie o arquivo **caule-themes-pack.yaml** para sua pasta **themes**. Se sua pasta **themes** ainda não existir, você deve cria-la dentro da pasta **config**
 
 
-## Download dos backgrounds
-10 dos 40 temas possuem backgrounds que precisam ser baixados e copiados para o seu servidor do Home Assistant. Baixe os backgrounds [**clicando aqui.**](https://github.com/orickcorreia/ha-themes-pack-2.0/raw/master/src/backgrounds.zip) Extraia o arquivo **.zip** e copie a pasta **backgrounds** para dentro da pasta **config/www/**. O caminho final para a pasta dos arquivos deve ser **config/www/backgrounds/**
+## Download dos backgrounds e dos ícones
+10 dos 40 temas possuem backgrounds e todos os temas usam ícones animados para o card de previsão do tempo. Esses arquivos precisam ser baixados e copiados para o seu servidor do Home Assistant.
 
+1. Baixe os backgrounds e ícones [**clicando aqui.**](https://github.com/orickcorreia/caule-themes-pack-1.1/raw/master/src/background-icons.zip) 
+2. Extraia o arquivo **.zip**
+3. Copie a pasta **caule-themes-pack** para dentro da pasta **config/www/**. O caminho final para a pasta dos arquivos deve ser **config/www/caule-themes-pack/**
 
 *ATENÇÃO! Se sua pasta **www** ainda não existir, crie ela dentro da pasta **config**.*
-
 
 Agora **reinicie o seu Home Assistante** e os temas estarão disponíveis para uso.
 <br><br>
