@@ -24,12 +24,7 @@ I want to ask only 2 things if you like my work:
 
 Make good use of themes ☺️
 
-<img src="https://github.com/orickcorreia/caule-themes-pack-1/blob/master/docs/pack1.png?raw=true">
-<img src="https://github.com/orickcorreia/caule-themes-pack-1/blob/master/docs/pack2.png?raw=true">
-<img src="https://github.com/orickcorreia/caule-themes-pack-1/blob/master/docs/pack3.png?raw=true">
-<img src="https://github.com/orickcorreia/caule-themes-pack-1/blob/master/docs/pack4.png?raw=true">
-<img src="https://github.com/orickcorreia/caule-themes-pack-1/blob/master/docs/01-rose.png?raw=true">
-
+<img src="https://github.com/orickcorreia/caule-themes-pack-1/blob/master/docs/pack.gif?raw=true">
 
 <img src="https://github.com/orickcorreia/caule-themes-pack-1/blob/master/docs/01-rose.png?raw=true">
 <img src="https://github.com/orickcorreia/caule-themes-pack-1/blob/master/docs/02-purple.png?raw=true">
