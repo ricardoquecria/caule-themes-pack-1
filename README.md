@@ -19,7 +19,7 @@ Created by Ricardo Correia for the Home Assistant Brasil community.
 I want to ask only 2 things for those who benefit from these themes:
 
 1) Join the HABR community on Discord: [habr.ml](http://habr.ml)
-2) Follow my creative studio on instagram: [caulecriativo.com](http://caulecriativo.com)
+2) Follow my creative studio on instagram: [caulecriativo.com](http://caulecriativo.com?target=_blank)
 
 Make good use of themes ☺️
 
