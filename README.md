@@ -32,11 +32,7 @@ I want to ask only 2 things for those who benefit from these themes:
 Make good use of themes ☺️
 
 
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/pack1.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/pack2.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/pack3.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/pack4.png)
-
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/pack.gif)
 
 
 ![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/01-rose.png)
