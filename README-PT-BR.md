@@ -73,22 +73,33 @@ Faça bom aproveito dos temas ☺️
 </div>
 
 
-# Instalação manual dos temas
-
-## Se você já tem a pasta "themes"
-
-Então faça o download do **caule-themes-pack-1.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml) e copie o arquivo para sua pasta **themes**
-
-
-## Se você AINDA NÃO tem a pasta "themes"
+<br><br>
+# Se você AINDA NÃO tem a pasta "themes"
 
 Então você precisa configurar seu arquivo **configuration.yaml**, acrescentando o código que segue abaixo para que o seu Home Assistant busque os temas na pasta **themes**:
-
 
 ```
 frontend:
   themes: !include_dir_merge_named themes
 ```
+
+**ATENÇÃO! É necessário reiniciar após essa configuração!**:
+
+# Instalação via HACS (Home Assistant Community Store)
+(Se você não o HACS) [Saiba como instalar](https://hacs.xyz/docs/installation/manual) 
+
+* Vá até a loja HACS
+* Clique em **"Frontend"**
+* Clique no botão **(+)**
+* Procure por **"Caule Themes Pack"**
+* E por fim clique em **"Install"**
+
+
+# Instalação manual dos temas
+
+Faça o download do **caule-themes-pack-1.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml) e copie o arquivo para sua pasta **themes**
+
+
 
 Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo **caule-themes-pack-1.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml)
 
