@@ -1,4 +1,4 @@
-# Themes Pack 2.0 - by caulecriativo.com
+# Caule Themes Pack 1.1 - by caulecriativo.com
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 [![ha brasil](https://img.shields.io/static/v1?label=HA%20Brasil&message=forum&color=green)](https://forum.homeassistantbrasil.com.br/t/themes-pack-2-0-by-caulecriativo-com/1422)
