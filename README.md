@@ -34,23 +34,23 @@ I want to ask only 2 things for those who benefit from these themes:
 Make good use of themes ☺️
 
 
-![](docs/pack1.png)
-![](docs/pack2.png)
-![](docs/pack3.png)
-![](docs/pack4.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/pack1.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/pack2.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/pack3.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/pack4.png)
 
 
 
-![](docs/01-rose.png)
-![](docs/02-purple.png)
-![](docs/03-blue.png)
-![](docs/04-aqua.png)
-![](docs/05-green.png)
-![](docs/06-yellow.png)
-![](docs/07-orange.png)
-![](docs/08-coral.png)
-![](docs/09-pink.png)
-![](docs/10-gray.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/01-rose.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/02-purple.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/03-blue.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/04-aqua.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/05-green.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/06-yellow.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/07-orange.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/08-coral.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/09-pink.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/10-gray.png)
 
 # Animated icons included
 ![](docs/animated-icons.gif)
