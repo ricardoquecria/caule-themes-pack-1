@@ -33,42 +33,38 @@ Quero pedir apenas 3 coisas para quem se beneficiar com esses temas:
 Faça bom aproveito dos temas ☺️
 
 
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/pack1.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/pack2.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/pack3.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/pack4.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/pack.gif)
 
 
-
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/01-rose.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/02-purple.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/03-blue.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/04-aqua.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/05-green.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/06-yellow.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/07-orange.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/08-coral.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/09-pink.png)
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/10-gray.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/01-rose.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/02-purple.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/03-blue.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/04-aqua.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/05-green.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/06-yellow.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/07-orange.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/08-coral.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/09-pink.png)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/10-gray.png)
 
 # Ícones animados inclusos
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/animated-icons.gif)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/animated-icons.gif)
 
 <div>
-<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/themes/clear-night.svg" width="100px">
-<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/themes/sunny.svg" width="100px">
-<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/themes/cloudy.svg" width="100px">
-<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/themes/fog.svg" width="100px">
-<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/themes/hail.svg" width="100px">
-<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/themes/lightning-rainy.svg" width="100px">
-<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/themes/lightning.svg" width="100px"><br>
-<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/themes/partlycloudy.svg" width="100px">
-<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/themes/pouring.svg" width="100px">
-<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/themes/rainy.svg" width="100px">
-<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/themes/windy-variant.svg" width="100px">
-<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/themes/windy.svg" width="100px">
-<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/themes/snowy.svg" width="100px">
-<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/themes/snowy-rainy.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/clear-night.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/sunny.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/cloudy.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/fog.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/hail.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/lightning-rainy.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/lightning.svg" width="100px"><br>
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/partlycloudy.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/pouring.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/rainy.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/windy-variant.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/windy.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/snowy.svg" width="100px">
+<img src="https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/themes/snowy-rainy.svg" width="100px">
 </div>
 
 
@@ -117,7 +113,7 @@ Agora **reinicie o seu Home Assistante** e os temas estarão disponíveis para u
 Vamos criar um seletor de temas para ser implementado na sua interface do usuário. É uma forma prática de alterar o tema instantaneamente em todos os dispositivos conectados ao seu Home Assistant. Veja como funciona no gif abaixo:
 
 
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/seletor.gif)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/seletor.gif)
 
 ## 1ª Etapa - Criando o input_select
 O input_select será usado para criar a lista de seleção com os temas que eu criei.<br>
@@ -187,7 +183,7 @@ Resultado:
 
 Vamos criar um flow no Node-RED para definir o tema automaticamente toda vez que você escolher um tema na sua interface. É bem simples! Basta fazer o download do arquivo .json ou copiar o código e colar na janela de importação do Node-RED.
 
-![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/docs/nodered.gif)
+![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/nodered.gif)
 
 [Clique aqui para copiar ou fazer download do código dos fluxos do Node-RED](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/seletor_theme_nodered.json)
 
