@@ -1,0 +1,3556 @@
+
+#     ######     ###    ##     ## ##       ######## 
+#    ##    ##   ## ##   ##     ## ##       ##       
+#    ##        ##   ##  ##     ## ##       ##       
+#    ##       ##     ## ##     ## ##       ######   
+#    ##       ######### ##     ## ##       ##       
+#    ##    ## ##     ## ##     ## ##       ##       
+#     ######  ##     ##  #######  ######## ######## 
+#
+#    ######## ##     ## ######## ##     ## ########  ######      
+#       ##    ##     ## ##       ###   ### ##       ##    ##  
+#       ##    ##     ## ##       #### #### ##       ##           
+#       ##    ######### ######   ## ### ## ######    ######     
+#       ##    ##     ## ##       ##     ## ##             ##    
+#       ##    ##     ## ##       ##     ## ##       ##    ##  
+#       ##    ##     ## ######## ##     ## ########  ######   
+#
+#    ########     ###     ######  ##    ##       ##          ##   
+#    ##     ##   ## ##   ##    ## ##   ##      ####        ####   
+#    ##     ##  ##   ##  ##       ##  ##         ##          ##   
+#    ########  ##     ## ##       #####          ##          ##   
+#    ##        ######### ##       ##  ##         ##          ##   
+#    ##        ##     ## ##    ## ##   ##        ##   ###    ##   
+#    ##        ##     ##  ######  ##    ##     ###### ###  ###### 
+#
+#
+#     Created by Ricardo Correia for the Home Assistant Brasil community
+#     There are 10 Main colors, totaling 40 different themes!
+#     Release 1.1
+#
+#     I want to ask only 2 things for those who benefit from these themes:
+#
+#     1) Join the HABR community on Discord: habr.ml
+#     2) Follow my creative studio on instagram: caulecriativo.com
+#
+#     ricardo.art.br
+#     github.com/orickcorreia
+#
+#     Make good use of the themes =)
+#
+#
+#     - Black Rose - Flat
+#     - Black Purple - Flat
+#     - Black Blue - Flat 
+#     - Black Aqua - Flat
+#     - Black Green - Flat
+#     - Black Yellow - Flat
+#     - Black Orange - Flat
+#     - Black Coral - Flat
+#     - Black Pink - Flat
+#     - Black Gray - Flat
+#
+#     - Dark Rose - Flat
+#     - Dark Purple - Flat
+#     - Dark Blue - Flat 
+#     - Dark Aqua - Flat
+#     - Dark Green - Flat
+#     - Dark Yellow - Flat
+#     - Dark Orange - Flat
+#     - Dark Coral - Flat
+#     - Dark Pink - Flat
+#     - Dark Gray - Flat
+#
+#     - Light Rose - Flat
+#     - Light Purple - Flat
+#     - Light Blue - Flat 
+#     - Light Aqua - Flat
+#     - Light Green - Flat
+#     - Light Yellow - Flat
+#     - Light Orange - Flat
+#     - Light Coral - Flat
+#     - Light Pink - Flat
+#     - Light Gray - Flat
+#
+#     - Black Rose - Transparent
+#     - Black Purple - Transparent
+#     - Black Blue - Transparent 
+#     - Black Aqua - Transparent
+#     - Black Green - Transparent
+#     - Black Yellow - Transparent
+#     - Black Orange - Transparent
+#     - Black Coral - Transparent
+#     - Black Pink - Transparent
+#     - Black Gray - Transparent 
+#
+#
+
+
+#                                                                                  
+#    #####   #         ##     ####   #    # 
+#    #    #  #        #  #   #    #  #   #  
+#    #####   #       #    #  #       ####   
+#    #    #  #       ######  #       #  #   
+#    #    #  #       #    #  #    #  #   #  
+#    #####   ######  #    #   ####   #    #  
+#            
+#    ######  #         ##    ##### 
+#    #       #        #  #     #   
+#    #####   #       #    #    #   
+#    #       #       ######    #   
+#    #       #       #    #    #   
+#    #       ######  #    #    #   
+#                                                             
+
+Black Rose - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#aa3151"
+  light-primary-color: "#b8536d"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#393939"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#191919"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+##########################################
+
+
+
+Black Purple - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#904eab"
+  light-primary-color: "#c983e4"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#393939"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#191919"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Blue - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#009bb5"
+  light-primary-color: "#5ed1eb"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#393939"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#191919"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Aqua - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#11ab93"
+  light-primary-color: "#62e3c8"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#393939"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#191919"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Green - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#6ca049"
+  light-primary-color: "#a1d77b"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#393939"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#191919"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Yellow - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#d6a245"
+  light-primary-color: "#ffd979"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#393939"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#191919"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Orange - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#d25f36"
+  light-primary-color: "#ff9568"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#393939"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#191919"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Coral - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#fa6e5e"
+  light-primary-color: "#ffa792"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#393939"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#191919"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Pink - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#f36f92"
+  light-primary-color: "#ffa8c9"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#393939"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#191919"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Gray - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#acacac"
+  light-primary-color: "#e2e2e2"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#393939"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#191919"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+#                                            
+#    #####   #         ##     ####   #    # 
+#    #    #  #        #  #   #    #  #   #  
+#    #####   #       #    #  #       ####   
+#    #    #  #       ######  #       #  #   
+#    #    #  #       #    #  #    #  #   #  
+#    #####   ######  #    #   ####   #    # 
+#                                                                                             
+#    #####  #####     ##    #    #   ####   #####     ##    #####   ######  #    #  ##### 
+#      #    #    #   #  #   ##   #  #       #    #   #  #   #    #  #       ##   #    #   
+#      #    #    #  #    #  # #  #   ####   #    #  #    #  #    #  #####   # #  #    #   
+#      #    #####   ######  #  # #       #  #####   ######  #####   #       #  # #    #   
+#      #    #   #   #    #  #   ##  #    #  #       #    #  #   #   #       #   ##    #   
+#      #    #    #  #    #  #    #   ####   #       #    #  #    #  ######  #    #    #   
+#                                                                                               
+
+Black Rose - Transparent:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  lovelace-background: 'center / cover no-repeat url("/local/caule-themes-pack/backgrounds/rose.jpg") fixed'
+  # Main colors
+  primary-color: "#aa3151"
+  light-primary-color: "#b8536d"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#5b5b5b"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Purple - Transparent:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  lovelace-background: 'center / cover no-repeat url("/local/caule-themes-pack/backgrounds/purple.jpg") fixed'
+  # Main colors
+  primary-color: "#904eab"
+  light-primary-color: "#c983e4"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#5b5b5b"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Blue - Transparent:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  lovelace-background: 'center / cover no-repeat url("/local/caule-themes-pack/backgrounds/blue.jpg") fixed'
+  # Main colors
+  primary-color: "#009bb5"
+  light-primary-color: "#5ed1eb"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#5b5b5b"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Aqua - Transparent:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  lovelace-background: 'center / cover no-repeat url("/local/caule-themes-pack/backgrounds/aqua.jpg") fixed'
+  # Main colors
+  primary-color: "#11ab93"
+  light-primary-color: "#62e3c8"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#5b5b5b"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Green - Transparent:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  lovelace-background: 'center / cover no-repeat url("/local/caule-themes-pack/backgrounds/green.jpg") fixed'
+  # Main colors
+  primary-color: "#6ca049"
+  light-primary-color: "#a1d77b"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#5b5b5b"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Yellow - Transparent:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  lovelace-background: 'center / cover no-repeat url("/local/caule-themes-pack/backgrounds/yellow.jpg") fixed'
+  # Main colors
+  primary-color: "#d6a245"
+  light-primary-color: "#ffd979"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#5b5b5b"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Orange - Transparent:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  lovelace-background: 'center / cover no-repeat url("/local/caule-themes-pack/backgrounds/orange.jpg") fixed'
+  # Main colors
+  primary-color: "#d25f36"
+  light-primary-color: "#ff9568"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#5b5b5b"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Coral - Transparent:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  lovelace-background: 'center / cover no-repeat url("/local/caule-themes-pack/backgrounds/coral.jpg") fixed'
+  # Main colors
+  primary-color: "#fa6e5e"
+  light-primary-color: "#ffa792"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#5b5b5b"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Pink - Transparent:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  lovelace-background: 'center / cover no-repeat url("/local/caule-themes-pack/backgrounds/pink.jpg") fixed'
+  # Main colors
+  primary-color: "#f36f92"
+  light-primary-color: "#ffa8c9"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#5b5b5b"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Black Gray - Transparent:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  lovelace-background: 'center / cover no-repeat url("/local/caule-themes-pack/backgrounds/gray.jpg") fixed'
+  # Main colors
+  primary-color: "#acacac"
+  light-primary-color: "#e2e2e2"
+  graph-color: var(--primary-color)
+  primary-background-color: "#0c0c0c"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2c2c2c"
+  disabled-color: "#5b5b5b"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+#                                                                                                         
+#    #       #   ####   #    #  #####  
+#    #       #  #    #  #    #    #     
+#    #       #  #       ######    #   
+#    #       #  #  ###  #    #    #    
+#    #       #  #    #  #    #    #    
+#    ######  #   ####   #    #    #    
+#         
+#    ######  #         ##    ##### 
+#    #       #        #  #     #   
+#    #####   #       #    #    #   
+#    #       #       ######    #   
+#    #       #       #    #    #   
+#    #       ######  #    #    #   
+#                                                                
+
+Light Rose - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#aa3151"
+  light-primary-color: "#b8536d"
+  graph-color: var(--primary-color)
+  primary-background-color: "#f2f2f2"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#d6d6d6"
+  disabled-color: "#d6d6d6"
+  # Text colors
+  primary-text-color: "#7f7f7f"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#ffffff"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Light Purple - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#904eab"
+  light-primary-color: "#c983e4"
+  graph-color: var(--primary-color)
+  primary-background-color: "#f2f2f2"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#d6d6d6"
+  disabled-color: "#d6d6d6"
+  # Text colors
+  primary-text-color: "#7f7f7f"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#ffffff"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Light Blue - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#009bb5"
+  light-primary-color: "#5ed1eb"
+  graph-color: var(--primary-color)
+  primary-background-color: "#f2f2f2"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#d6d6d6"
+  disabled-color: "#d6d6d6"
+  # Text colors
+  primary-text-color: "#7f7f7f"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#ffffff"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Light Aqua - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#11ab93"
+  light-primary-color: "#62e3c8"
+  graph-color: var(--primary-color)
+  primary-background-color: "#f2f2f2"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#d6d6d6"
+  disabled-color: "#d6d6d6"
+  # Text colors
+  primary-text-color: "#7f7f7f"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#ffffff"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Light Green - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#6ca049"
+  light-primary-color: "#a1d77b"
+  graph-color: var(--primary-color)
+  primary-background-color: "#f2f2f2"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#d6d6d6"
+  disabled-color: "#d6d6d6"
+  # Text colors
+  primary-text-color: "#7f7f7f"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#ffffff"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Light Yellow - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#d6a245"
+  light-primary-color: "#ffd979"
+  graph-color: var(--primary-color)
+  primary-background-color: "#f2f2f2"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#d6d6d6"
+  disabled-color: "#d6d6d6"
+  # Text colors
+  primary-text-color: "#7f7f7f"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#ffffff"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Light Orange - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#d25f36"
+  light-primary-color: "#ff9568"
+  graph-color: var(--primary-color)
+  primary-background-color: "#f2f2f2"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#d6d6d6"
+  disabled-color: "#d6d6d6"
+  # Text colors
+  primary-text-color: "#7f7f7f"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#ffffff"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Light Coral - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#fa6e5e"
+  light-primary-color: "#ffa792"
+  graph-color: var(--primary-color)
+  primary-background-color: "#f2f2f2"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#d6d6d6"
+  disabled-color: "#d6d6d6"
+  # Text colors
+  primary-text-color: "#7f7f7f"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#ffffff"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Light Pink - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#f36f92"
+  light-primary-color: "#ffa8c9"
+  graph-color: var(--primary-color)
+  primary-background-color: "#f2f2f2"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#d6d6d6"
+  disabled-color: "#d6d6d6"
+  # Text colors
+  primary-text-color: "#7f7f7f"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#ffffff"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Light Gray - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#acacac"
+  light-primary-color: "#e2e2e2"
+  graph-color: var(--primary-color)
+  primary-background-color: "#f2f2f2"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#d6d6d6"
+  disabled-color: "#d6d6d6"
+  # Text colors
+  primary-text-color: "#7f7f7f"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#ffffff"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+#                             
+#    #####     ##    #####   #    # 
+#    #    #   #  #   #    #  #   #  
+#    #    #  #    #  #    #  ####   
+#    #    #  ######  #####   #  #   
+#    #    #  #    #  #   #   #   #  
+#    #####   #    #  #    #  #    # 
+#                                    
+#    ######  #         ##    ##### 
+#    #       #        #  #     #   
+#    #####   #       #    #    #   
+#    #       #       ######    #   
+#    #       #       #    #    #   
+#    #       ######  #    #    #   
+#                                   
+
+Dark Rose - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#aa3151"
+  light-primary-color: "#b8536d"
+  graph-color: var(--primary-color)
+  primary-background-color: "#1D1B1E"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#37373D"
+  disabled-color: "#666666"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#2A282D"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Dark Purple - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#904eab"
+  light-primary-color: "#c983e4"
+  graph-color: var(--primary-color)
+  primary-background-color: "#1D1B1E"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#37373D"
+  disabled-color: "#666666"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#2A282D"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Dark Blue - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#009bb5"
+  light-primary-color: "#5ed1eb"
+  graph-color: var(--primary-color)
+  primary-background-color: "#1D1B1E"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#37373D"
+  disabled-color: "#666666"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#2A282D"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Dark Aqua - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#11ab93"
+  light-primary-color: "#62e3c8"
+  graph-color: var(--primary-color)
+  primary-background-color: "#1D1B1E"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#37373D"
+  disabled-color: "#666666"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#2A282D"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Dark Green - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#6ca049"
+  light-primary-color: "#a1d77b"
+  graph-color: var(--primary-color)
+  primary-background-color: "#1D1B1E"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#37373D"
+  disabled-color: "#666666"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#2A282D"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Dark Yellow - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#d6a245"
+  light-primary-color: "#ffd979"
+  graph-color: var(--primary-color)
+  primary-background-color: "#1D1B1E"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#37373D"
+  disabled-color: "#666666"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#2A282D"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Dark Orange - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#d25f36"
+  light-primary-color: "#ff9568"
+  graph-color: var(--primary-color)
+  primary-background-color: "#1D1B1E"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#37373D"
+  disabled-color: "#666666"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#2A282D"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Dark Coral - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#fa6e5e"
+  light-primary-color: "#ffa792"
+  graph-color: var(--primary-color)
+  primary-background-color: "#1D1B1E"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#37373D"
+  disabled-color: "#666666"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#2A282D"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Dark Pink - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#f36f92"
+  light-primary-color: "#ffa8c9"
+  graph-color: var(--primary-color)
+  primary-background-color: "#1D1B1E"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#37373D"
+  disabled-color: "#666666"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#2A282D"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+##########################################
+
+
+
+Dark Gray - Flat:
+
+  # Change the value below 6px to 0px to remove the rounded corners
+  ha-card-border-radius: 6px
+  # Main colors
+  primary-color: "#acacac"
+  light-primary-color: "#e2e2e2"
+  graph-color: var(--primary-color)
+  primary-background-color: "#1D1B1E"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#37373D"
+  disabled-color: "#666666"
+  # Text colors
+  primary-text-color: "#e5e5e5"
+  secondary-text-color: var(--disabled-color)
+  text-primary-color: "#E5E5E5"
+  disabled-text-color: var(--light-primary-color)
+  # Sidebar colors
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # Icons colors
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+  # Settins and colors of Mini Media Player
+  mini-media-player-icon-color: var(--primary-color)
+  mini-media-player-accent-color: var(--primary-color)
+  mini-media-player-progress-height: 8px
+  mini-media-player-background-opacity: 1
+  mini-media-player-artwork-opacity: 1
+  # Papers slider colors
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels colors
+  label-badge-background-color: var(--divider-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--light-primary-color)
+  # Cores dos cards
+  paper-card-background-color: "#2A282D"
+  paper-listbox-background-color: var(--primary-background-color)
+  # Toggle button colors
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: "#333333"
+  # Switch colors
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  # Table colors
+  table-row-background-color: var(--divider-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  card-background-color: var(--primary-background-color)
+  #Animated icons
+  weather-icon-clear-night: url("/local/caule-themes-pack/icons/clear-night.svg")
+  weather-icon-cloudy: url("/local/caule-themes-pack/icons/cloudy.svg")
+  weather-icon-fog: url("/local/caule-themes-pack/icons/fog.svg")
+  weather-icon-lightning: url("/local/caule-themes-pack/icons/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/caule-themes-pack/icons/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/caule-themes-pack/icons/partlycloudy.svg")
+  weather-icon-pouring: url("/local/caule-themes-pack/icons/pouring.svg")
+  weather-icon-rainy: url("/local/caule-themes-pack/icons/rainy.svg")
+  weather-icon-hail: url("/local/caule-themes-pack/icons/hail.svg")
+  weather-icon-snowy: url("/local/caule-themes-pack/icons/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/caule-themes-pack/icons/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/caule-themes-pack/icons/sunny.svg")
+  weather-icon-windy: url("/local/caule-themes-pack/icons/windy.svg")
+  weather-icon-windy-variant: url("/local/caule-themes-pack/icons/windy-variant.svg")
+  weather-icon-exceptional: url("/local/caule-themes-pack/icons/exceptional.svg")
+  # Shadown
+  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+
+
+
+
