@@ -1,4 +1,4 @@
-![](clear-night.svg)
+<img src="clear-night.svg" width="100px">
 <img src="sunny.svg" width="100px">
 <img src="cloudy.svg" width="100px">
 <img src="fog.svg" width="100px">
