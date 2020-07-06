@@ -24,12 +24,11 @@ Criado por Ricardo Correia para a comunidade Home Assistant Brasil.
 * Ícones animados para o card de previsão do tempo;
 * E de bônus um seletor de temas automático para sua interface.
 
-**Em breve estará disponível para instalação no HACS (Home Assistant Community Store)**
+Quero pedir apenas 3 coisas para quem se beneficiar com esses temas:
 
-Quero pedir apenas 2 coisas para quem se beneficiar com esses temas:
-
-1) Entre na comunidade HABR no Discord: [habr.ml](http://habr.ml)
-2) Siga meu estúdio de criação no instagram: [caulecriativo.com](http://caulecriativo.com)
+1) Contribua com meu trabalho! [Me pague um cafézinho](https://www.buymeacoffee.com/orickcorreia)
+2) Entre na comunidade HABR no Discord: [habr.ml](http://habr.ml)
+3) Siga meu estúdio de criação no instagram: [caulecriativo.com](http://caulecriativo.com)
 
 Faça bom aproveito dos temas ☺️
 
@@ -83,7 +82,7 @@ frontend:
   themes: !include_dir_merge_named themes
 ```
 
-**ATENÇÃO! É necessário reiniciar após essa configuração!**:
+**ATENÇÃO! É necessário reiniciar após essa configuração!**
 
 # Instalação via HACS (Home Assistant Community Store)
 (Se você não o HACS) [Saiba como instalar](https://hacs.xyz/docs/installation/manual) 
@@ -95,18 +94,14 @@ frontend:
 * E por fim clique em **"Install"**
 
 
-# Instalação manual dos temas
+# Instalação manual
 
 Faça o download do **caule-themes-pack-1.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml) e copie o arquivo para sua pasta **themes**
 
+Se sua pasta **themes** ainda não existir, você deve cria-la dentro da pasta **config**
 
 
-Após inserir a configuração no seu **configuration.yaml**, faça o download do arquivo **caule-themes-pack-1.yaml** [**clicando aqui**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml)
-
-Copie o arquivo **caule-themes-pack-1.yaml** para sua pasta **themes**. Se sua pasta **themes** ainda não existir, você deve cria-la dentro da pasta **config**
-
-
-## Download dos backgrounds e dos ícones
+## Download dos backgrounds e dos ícones (necessário apenas para instalação manual)
 10 dos 40 temas possuem backgrounds e todos os temas usam ícones animados para o card de previsão do tempo. Esses arquivos precisam ser baixados e copiados para o seu servidor do Home Assistant.
 
 1. Baixe os backgrounds e ícones [**clicando aqui.**](https://github.com/orickcorreia/caule-themes-pack-1/raw/master/src/backgrounds-icons.zip) 
