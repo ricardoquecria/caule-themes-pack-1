@@ -34,24 +34,26 @@ Quero pedir apenas 2 coisas para quem se beneficiar com esses temas:
 Faça bom aproveito dos temas ☺️
 
 
-![](images/pack1.png)
-![](images/pack2.png)
-![](images/pack3.png)
-![](images/pack4.png)
+![](docs/pack1.png)
+![](docs/pack2.png)
+![](docs/pack3.png)
+![](docs/pack4.png)
 
 
 
-![](images/01-rose.png)
-![](images/02-purple.png)
-![](images/03-blue.png)
-![](images/04-aqua.png)
-![](images/05-green.png)
-![](images/06-yellow.png)
-![](images/07-orange.png)
-![](images/08-coral.png)
-![](images/09-pink.png)
-![](images/10-gray.png)
+![](docs/01-rose.png)
+![](docs/02-purple.png)
+![](docs/03-blue.png)
+![](docs/04-aqua.png)
+![](docs/05-green.png)
+![](docs/06-yellow.png)
+![](docs/07-orange.png)
+![](docs/08-coral.png)
+![](docs/09-pink.png)
+![](docs/10-gray.png)
 
+# Ícones animados inclusos
+![](docs/animated-icons.gif)
 
 <div>
 <img src="themes/clear-night.svg" width="100px">
@@ -96,7 +98,7 @@ Copie o arquivo **caule-themes-pack-1.yaml** para sua pasta **themes**. Se sua p
 ## Download dos backgrounds e dos ícones
 10 dos 40 temas possuem backgrounds e todos os temas usam ícones animados para o card de previsão do tempo. Esses arquivos precisam ser baixados e copiados para o seu servidor do Home Assistant.
 
-1. Baixe os backgrounds e ícones [**clicando aqui.**](https://github.com/orickcorreia/caule-themes-pack-1/raw/master/src/background-icons.zip) 
+1. Baixe os backgrounds e ícones [**clicando aqui.**](https://github.com/orickcorreia/caule-themes-pack-1/raw/master/src/backgrounds-icons.zip) 
 2. Extraia o arquivo **.zip**
 3. Copie a pasta **caule-themes-pack** para dentro da pasta **config/www/**. O caminho final para a pasta dos arquivos deve ser **config/www/caule-themes-pack-1/**
 
@@ -110,7 +112,7 @@ Agora **reinicie o seu Home Assistante** e os temas estarão disponíveis para u
 Vamos criar um seletor de temas para ser implementado na sua interface do usuário. É uma forma prática de alterar o tema instantaneamente em todos os dispositivos conectados ao seu Home Assistant. Veja como funciona no gif abaixo:
 
 
-![](https://github.com/orickcorreia/ha-themes-pack-2.0/blob/master/images/seletor.gif)
+![](docs/seletor.gif)
 
 ## 1ª Etapa - Criando o input_select
 O input_select será usado para criar a lista de seleção com os temas que eu criei.<br>
@@ -180,6 +182,8 @@ Resultado:
 
 Vamos criar um flow no Node-RED para definir o tema automaticamente toda vez que você escolher um tema na sua interface. É bem simples! Basta fazer o download do arquivo .json ou copiar o código e colar na janela de importação do Node-RED.
 
+![](docs/nodered.gif)
+
 [Clique aqui para copiar ou fazer download do código dos fluxos do Node-RED](https://raw.githubusercontent.com/orickcorreia/ha-themes-pack-2.0/master/src/seletor_theme_nodered.json)
 
 
@@ -192,7 +196,7 @@ Agora é só inserir o código do seletor na sua interface.
 * Se você usa a interface no modo automático, vá até o modo de edição da sua interface, escolha a opção "manual" lá no final, depois copie e cole o código abaixo.
 
 ``` 
-- type: entities
+  type: entities
   show_header_toggle: false
   entities:
     - entity: input_select.themes
@@ -207,3 +211,6 @@ Altere o tema no perfil do usuário para "Backend-selected". Dessa forma todos o
 
 ### Agora é só aproveitar!
 ### Se tudo der certo, [mande um print](http://api.whatsapp.com/send?phone=5565999593909) ☺️
+
+
+Ícones criados pela [amCharts](https://www.amcharts.com/free-animated-svg-weather-icons/) e modificados por mim.
