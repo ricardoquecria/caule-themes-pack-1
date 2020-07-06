@@ -104,7 +104,7 @@
 		transform: translate(0.0px,0.0px);
 	}
 	11% {
-		fill: orange;
+		fill: #F9E491;
 		-webkit-transform: translate(0.0px,0.0px);
 		-moz-transform: translate(0.0px,0.0px);
 		-ms-transform: translate(0.0px,0.0px);
@@ -118,7 +118,7 @@
 		transform: translate(-1px,5.0px);
 	}
 	13% {
-		fill: orange;
+		fill: #F9E491;
 	}
 	14% {
 		-webkit-transform: translate(0.0px,0.0px);

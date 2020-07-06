@@ -131,7 +131,7 @@
 	</defs>
 	<g filter="url(#blur)" id="cloudy-day-3">
 		<g transform="translate(14,3)">
-			<g transform="translate(0,16)">
+			<g transform="translate(0,13)">
 				<g class="am-weather-sun">
 					<g>
 						<line fill="none" stroke="#fddb4e" stroke-linecap="round" stroke-width="2" transform="translate(0,9)" x1="0" x2="0" y1="0" y2="3"/>

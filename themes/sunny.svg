@@ -124,7 +124,7 @@
 }]]></style>
 	</defs>
 	<g filter="url(#blur)" id="day">
-		<g transform="translate(17,17)">
+		<g transform="translate(17,15)">
 			<g class="am-weather-sun am-weather-sun-shiny am-weather-easing-ease-in-out">
 				<g>
 					<line fill="none" stroke="#FDDB4E" stroke-linecap="round" stroke-width="2" transform="translate(0,9)" x1="0" x2="0" y1="0" y2="3"/>
