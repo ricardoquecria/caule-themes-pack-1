@@ -15,18 +15,18 @@
 #       ##    ##     ## ##       ##     ## ##       ##    ##  
 #       ##    ##     ## ######## ##     ## ########  ######   
 #
-#    ########     ###     ######  ##    ##       ##          ##   
-#    ##     ##   ## ##   ##    ## ##   ##      ####        ####   
-#    ##     ##  ##   ##  ##       ##  ##         ##          ##   
-#    ########  ##     ## ##       #####          ##          ##   
-#    ##        ######### ##       ##  ##         ##          ##   
-#    ##        ##     ## ##    ## ##   ##        ##   ###    ##   
-#    ##        ##     ##  ######  ##    ##     ###### ###  ###### 
+#    ########     ###     ######  ##    ##       ##         #####   
+#    ##     ##   ## ##   ##    ## ##   ##      ####        ##   ##  
+#    ##     ##  ##   ##  ##       ##  ##         ##       ##     ## 
+#    ########  ##     ## ##       #####          ##       ##     ## 
+#    ##        ######### ##       ##  ##         ##       ##     ## 
+#    ##        ##     ## ##    ## ##   ##        ##   ###  ##   ##  
+#    ##        ##     ##  ######  ##    ##     ###### ###   #####   
 #
 #
 #     Created by Ricardo Correia for the Home Assistant Brasil community
 #     There are 10 Main colors, totaling 40 different themes!
-#     Release 1.1
+#     Release 1.0
 #
 #     I want to ask only 2 things for those who benefit from these themes:
 #
@@ -3524,7 +3524,3 @@ Caule Dark Gray:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
-
-
-
-
