@@ -3,6 +3,7 @@
 [![ha brasil](https://img.shields.io/static/v1?label=HA%20Brasil&message=forum&color=green&style=flat-square)](https://forum.homeassistantbrasil.com.br/t/caule-themes-pack-1-by-caulecriativo-com/1422)
 [![ha brasil discord](https://img.shields.io/static/v1?label=HA%20Brasil&message=discord&color=blueviolet&style=flat-square)](http://habr.ml)
 [![homeassistant_community](https://img.shields.io/badge/HA%20community-forum-brightgreen?style=flat-square)](https://community.home-assistant.io/t/caule-themes-pack-1-by-caulecriativo-com/209436)
+[![](https://img.shields.io/github/release/orickcorreia/caule-themes-pack-1.svg?style=flat-square)](https://github.com/orickcorreia/caule-themes-pack-1/releases/latest)
 [![Github Stars](https://img.shields.io/github/stars/orickcorreia/caule-themes-pack-1?logo=github&style=social)](https://github.com/orickcorreia/caule-themes-pack-1)
 [![Github Follow](https://img.shields.io/github/followers/orickcorreia?logo=github&style=social)](https://github.com/orickcorreia)
 
@@ -166,7 +167,7 @@ input_select:
       - Caule Black Coral Glass
       - Caule Black Pink Glass
       - Caule Black Gray Glass      
-      - Default
+      - default
 ```
 Restart your Home Assistant so that the input_select is created.
 
