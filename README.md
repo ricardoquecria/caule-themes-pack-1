@@ -93,14 +93,14 @@ frontend:
 
 # Manual installation
 
-Then download the **caule-themes-pack-1.yaml** [**clicking here**](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/caule-themes-pack-1.yaml) and copy the file to your **themes** folder.<br>
+Then download the **caule-themes-pack-1.yaml** [**clicking here**](https://bit.ly/2ZSH77b) and copy the file to your **themes** folder.<br>
 If your **themes** folder does not yet exist, you must create it within the **config** folder
 
 
 ## Download backgrounds and icons (only required for manual installation)
 10 of the 40 themes have backgrounds and all themes use animated icons for the weather forecast card. These files need to be downloaded and copied to your Home Assistant server.
 
-1. Download the backgrounds and icons [**clicking here.**](https://github.com/orickcorreia/caule-themes-pack-1/raw/master/src/backgrounds-icons.zip)
+1. Download the backgrounds and icons [**clicking here.**](https://bit.ly/38G6ptj)
 2. Extract the file **.Zip**
 3. Copy the folder **caule-themes-pack** into the folder **config/www/**. The final path to the file folder should be **config/www/caule-themes-pack-1/**
 
@@ -187,7 +187,7 @@ We will create a flow in Node-RED to define the theme automatically every time y
 
 ![](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/docs/nodered.gif)
 
-[Click here to copy or download the code for Node-RED flows](https://raw.githubusercontent.com/orickcorreia/caule-themes-pack-1/master/src/seletor_theme_nodered.json)
+[Click here to copy or download the code for Node-RED flows](https://bit.ly/3gLMtrs)
 
 After importing the flow to your Node-RED, click **Deploy**<br><br>
 
