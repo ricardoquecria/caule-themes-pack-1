@@ -87,7 +87,8 @@ frontend:
 * Click on the **"Frontend"** option
 * Click on the **(+)** button
 * Search for **"Caule Themes Pack"**
-* And finally click on **"Install"** button
+* Click **"Install"**
+* Restart your Home Assistant
 
 
 # Manual installation
