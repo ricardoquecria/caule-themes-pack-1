@@ -1,9 +1,9 @@
 [
     {
-        "id": "eef0622.30d86a",
+        "id": "67f77c8b.68bf64",
         "type": "server-state-changed",
-        "z": "b4b4869d.412b48",
-        "name": "State - Input Theme",
+        "z": "76e3aa7d.6111e4",
+        "name": "input Theme",
         "server": "82136dea.a6d7a",
         "version": 1,
         "exposeToHomeAssistant": false,
@@ -26,19 +26,19 @@
         "halt_if_compare": "is",
         "outputs": 1,
         "output_only_on_state_change": true,
-        "x": 270,
-        "y": 400,
+        "x": 610,
+        "y": 576,
         "wires": [
             [
-                "eb270c69.de8c7"
+                "7af5c1af.bd9df"
             ]
         ]
     },
     {
-        "id": "ae9a3c71.d93fa",
+        "id": "ca9ea279.a9188",
         "type": "api-call-service",
-        "z": "b4b4869d.412b48",
-        "name": "Set Theme",
+        "z": "76e3aa7d.6111e4",
+        "name": "set Theme",
         "server": "82136dea.a6d7a",
         "version": 1,
         "debugenabled": false,
@@ -51,30 +51,103 @@
         "output_location": "",
         "output_location_type": "none",
         "mustacheAltTags": false,
-        "x": 610,
-        "y": 400,
+        "x": 958,
+        "y": 576,
         "wires": [
             []
         ]
     },
     {
-        "id": "eb270c69.de8c7",
+        "id": "7af5c1af.bd9df",
         "type": "api-render-template",
-        "z": "b4b4869d.412b48",
-        "name": "get var Timer",
+        "z": "76e3aa7d.6111e4",
+        "name": "get Theme",
         "server": "8c51b0bb.698c3",
         "template": "{{ states('input_select.themes') }}",
         "resultsLocation": "payload",
         "resultsLocationType": "msg",
         "templateLocation": "payload",
         "templateLocationType": "msg",
-        "x": 450,
-        "y": 400,
+        "x": 790,
+        "y": 576,
         "wires": [
             [
-                "ae9a3c71.d93fa"
+                "ca9ea279.a9188"
             ]
         ]
+    },
+    {
+        "id": "6f66da1c.253e94",
+        "type": "inject",
+        "z": "76e3aa7d.6111e4",
+        "name": "strat HassOS",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "homeassistant.homeAssistant.isConnected",
+        "payloadType": "global",
+        "x": 579,
+        "y": 624,
+        "wires": [
+            [
+                "519278ea.12c4a8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "519278ea.12c4a8",
+        "type": "rbe",
+        "z": "76e3aa7d.6111e4",
+        "name": "",
+        "func": "rbei",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "property": "payload",
+        "x": 627,
+        "y": 624,
+        "wires": [
+            [
+                "7084ac9d.6f9d54"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7084ac9d.6f9d54",
+        "type": "switch",
+        "z": "76e3aa7d.6111e4",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 675,
+        "y": 624,
+        "wires": [
+            [
+                "7af5c1af.bd9df"
+            ]
+        ],
+        "l": false
     },
     {
         "id": "82136dea.a6d7a",
