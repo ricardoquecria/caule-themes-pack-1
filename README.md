@@ -14,7 +14,7 @@
 
 [Versão em português](README-PT-BR.md)
 
-Created by Ricardo Correia for the Home Assistant BraZil community.
+Created by Ricardo Correia for the Home Assistant Brazil community.
 * 10 modern colors;
 * 4 categories of styles;
    - Black Glass
