@@ -178,7 +178,29 @@ Result:
 
 
 
-## 2ª Stage - Automation of the theme selector in Node-RED
+## 2nd Step - Theme selector automation
+
+### Attention! This automation is available in two methods. Choose only one method.
+
+### Method 1) Native Automation of Home Assistant with YAML
+
+Copy the code below and paste it into your file **automations.yaml**
+
+```
+- alias: "set Themes - by caulecriativo.com"
+  initial_state: true
+  trigger:
+    platform: state
+    entity_id: input_select.themes
+  action:
+  - service: frontend.set_theme
+    data_template:
+      name: >
+        {{ trigger.to_state.state }}
+```
+
+
+### Method 2) Automation with Node-RED
 
 **WARNING!** If you've never used Node-RED, [learn more by clicking here.](https://github.com/hassio-addons/addon-node-red)
 

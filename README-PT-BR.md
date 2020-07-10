@@ -181,7 +181,7 @@ Resultado:
 
 ### Atenção! Essa automação está disponível em dois métodos. Escolha apenas um método.
 
-### Método 1) Automação nativa do Home Assistant via YAML
+### Método 1) Automação nativa do Home Assistant com YAML
 
 Copie o código abaixo e cole no seu arquivo **automations.yaml**
 
@@ -199,7 +199,7 @@ Copie o código abaixo e cole no seu arquivo **automations.yaml**
 ```
 
 
-### Método 2) Automação via Node-RED
+### Método 2) Automação com Node-RED
 
 **ATENÇÃO!** Se você nunca usou o Node-RED, [saiba mais clicando aqui.](https://github.com/hassio-addons/addon-node-red)
 
