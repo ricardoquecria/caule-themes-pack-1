@@ -1,32 +1,32 @@
 
-#     ######     ###    ##     ## ##       ######## 
-#    ##    ##   ## ##   ##     ## ##       ##       
-#    ##        ##   ##  ##     ## ##       ##       
-#    ##       ##     ## ##     ## ##       ######   
-#    ##       ######### ##     ## ##       ##       
-#    ##    ## ##     ## ##     ## ##       ##       
-#     ######  ##     ##  #######  ######## ######## 
+#     ######      ###     ##     ##  ##        ######## 
+#    ##    ##    ## ##    ##     ##  ##        ##       
+#    ##         ##   ##   ##     ##  ##        ##       
+#    ##        ##     ##  ##     ##  ##        ######   
+#    ##        #########  ##     ##  ##        ##       
+#    ##    ##  ##     ##  ##     ##  ##        ##       
+#     ######   ##     ##   #######   ########  ######## 
 #
-#    ######## ##     ## ######## ##     ## ########  ######      
-#       ##    ##     ## ##       ###   ### ##       ##    ##  
-#       ##    ##     ## ##       #### #### ##       ##           
-#       ##    ######### ######   ## ### ## ######    ######     
-#       ##    ##     ## ##       ##     ## ##             ##    
-#       ##    ##     ## ##       ##     ## ##       ##    ##  
-#       ##    ##     ## ######## ##     ## ########  ######   
+#    ########  ##     ##  ########  ##     ##  ########   ######      
+#       ##     ##     ##  ##        ###   ###  ##        ##    ##  
+#       ##     ##     ##  ##        #### ####  ##        ##           
+#       ##     #########  ######    ## ### ##  ######     ######     
+#       ##     ##     ##  ##        ##     ##  ##              ##    
+#       ##     ##     ##  ##        ##     ##  ##        ##    ##  
+#       ##     ##     ##  ########  ##     ##  ########   ######   
 #
-#    ########     ###     ######  ##    ##       ##         #####   
-#    ##     ##   ## ##   ##    ## ##   ##      ####        ##   ##  
-#    ##     ##  ##   ##  ##       ##  ##         ##       ##     ## 
-#    ########  ##     ## ##       #####          ##       ##     ## 
-#    ##        ######### ##       ##  ##         ##       ##     ## 
-#    ##        ##     ## ##    ## ##   ##        ##   ###  ##   ##  
-#    ##        ##     ##  ######  ##    ##     ###### ###   #####   
+#    ########      ###      ######   ##    ##       ##           ##
+#    ##     ##    ## ##    ##    ##  ##   ##      ####         ####  
+#    ##     ##   ##   ##   ##        ##  ##         ##           ##
+#    ########   ##     ##  ##        #####          ##           ##
+#    ##         #########  ##        ##  ##         ##           ##  
+#    ##         ##     ##  ##    ##  ##   ##        ##    ###    ##       
+#    ##         ##     ##   ######   ##    ##     ######  ###  ######
 #
 #
 #     Created by Ricardo Correia for the Home Assistant Brasil community
 #     There are 10 Main colors, totaling 40 different themes!
-#     Release 1.0
+#     Release 1.1
 #
 #     I want to ask only 2 things for those who benefit from these themes:
 #
@@ -173,7 +173,13 @@ Caule Black Rose:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
-
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 ##########################################
 
@@ -257,6 +263,13 @@ Caule Black Purple:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -342,6 +355,13 @@ Caule Black Blue:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -427,6 +447,13 @@ Caule Black Aqua:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -512,6 +539,13 @@ Caule Black Green:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -597,6 +631,13 @@ Caule Black Yellow:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -682,6 +723,13 @@ Caule Black Orange:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -767,6 +815,13 @@ Caule Black Coral:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -852,6 +907,13 @@ Caule Black Pink:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -937,6 +999,13 @@ Caule Black Gray:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1029,6 +1098,13 @@ Caule Black Rose Glass:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1116,6 +1192,13 @@ Caule Black Purple Glass:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1203,6 +1286,13 @@ Caule Black Blue Glass:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1290,6 +1380,13 @@ Caule Black Aqua Glass:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1377,6 +1474,13 @@ Caule Black Green Glass:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1464,6 +1568,13 @@ Caule Black Yellow Glass:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1551,6 +1662,13 @@ Caule Black Orange Glass:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1638,6 +1756,13 @@ Caule Black Coral Glass:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1725,6 +1850,13 @@ Caule Black Pink Glass:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1812,6 +1944,13 @@ Caule Black Gray Glass:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1903,6 +2042,13 @@ Caule Light Rose:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1988,6 +2134,13 @@ Caule Light Purple:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2073,6 +2226,13 @@ Caule Light Blue:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2158,6 +2318,13 @@ Caule Light Aqua:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2243,6 +2410,13 @@ Caule Light Green:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2328,6 +2502,13 @@ Caule Light Yellow:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2413,6 +2594,13 @@ Caule Light Orange:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2498,6 +2686,13 @@ Caule Light Coral:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2583,6 +2778,13 @@ Caule Light Pink:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2668,6 +2870,13 @@ Caule Light Gray:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2759,6 +2968,13 @@ Caule Dark Rose:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2844,6 +3060,13 @@ Caule Dark Purple:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2929,6 +3152,13 @@ Caule Dark Blue:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -3014,6 +3244,13 @@ Caule Dark Aqua:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -3099,6 +3336,13 @@ Caule Dark Green:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -3184,6 +3428,13 @@ Caule Dark Yellow:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -3269,6 +3520,13 @@ Caule Dark Orange:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -3354,6 +3612,13 @@ Caule Dark Coral:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -3439,6 +3704,13 @@ Caule Dark Pink:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -3524,6 +3796,13 @@ Caule Dark Gray:
   weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
