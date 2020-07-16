@@ -126,8 +126,6 @@ Caule Black Rose:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -216,8 +214,6 @@ Caule Black Purple:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -308,8 +304,6 @@ Caule Black Blue:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -400,8 +394,6 @@ Caule Black Aqua:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -492,8 +484,6 @@ Caule Black Green:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -584,8 +574,6 @@ Caule Black Yellow:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -676,8 +664,6 @@ Caule Black Orange:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -768,8 +754,6 @@ Caule Black Coral:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -860,8 +844,6 @@ Caule Black Pink:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -952,8 +934,6 @@ Caule Black Gray:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1051,8 +1031,6 @@ Caule Black Rose Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1145,8 +1123,6 @@ Caule Black Purple Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1239,8 +1215,6 @@ Caule Black Blue Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1333,8 +1307,6 @@ Caule Black Aqua Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1427,8 +1399,6 @@ Caule Black Green Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1521,8 +1491,6 @@ Caule Black Yellow Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1615,8 +1583,6 @@ Caule Black Orange Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1709,8 +1675,6 @@ Caule Black Coral Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1803,8 +1767,6 @@ Caule Black Pink Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1897,8 +1859,6 @@ Caule Black Gray Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1995,8 +1955,6 @@ Caule Light Rose:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2087,8 +2045,6 @@ Caule Light Purple:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2179,8 +2135,6 @@ Caule Light Blue:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2271,8 +2225,6 @@ Caule Light Aqua:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2363,8 +2315,6 @@ Caule Light Green:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2455,8 +2405,6 @@ Caule Light Yellow:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2547,8 +2495,6 @@ Caule Light Orange:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2639,8 +2585,6 @@ Caule Light Coral:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2731,8 +2675,6 @@ Caule Light Pink:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2823,8 +2765,6 @@ Caule Light Gray:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2921,8 +2861,6 @@ Caule Dark Rose:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3013,8 +2951,6 @@ Caule Dark Purple:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3105,8 +3041,6 @@ Caule Dark Blue:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3197,8 +3131,6 @@ Caule Dark Aqua:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3289,8 +3221,6 @@ Caule Dark Green:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3381,8 +3311,6 @@ Caule Dark Yellow:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3473,8 +3401,6 @@ Caule Dark Orange:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3565,8 +3491,6 @@ Caule Dark Coral:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3657,8 +3581,6 @@ Caule Dark Pink:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3749,8 +3671,6 @@ Caule Dark Gray:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
