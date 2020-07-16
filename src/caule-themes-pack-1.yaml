@@ -1,32 +1,32 @@
 
-#     ######     ###    ##     ## ##       ######## 
-#    ##    ##   ## ##   ##     ## ##       ##       
-#    ##        ##   ##  ##     ## ##       ##       
-#    ##       ##     ## ##     ## ##       ######   
-#    ##       ######### ##     ## ##       ##       
-#    ##    ## ##     ## ##     ## ##       ##       
-#     ######  ##     ##  #######  ######## ######## 
+#     ######      ###     ##     ##  ##        ######## 
+#    ##    ##    ## ##    ##     ##  ##        ##       
+#    ##         ##   ##   ##     ##  ##        ##       
+#    ##        ##     ##  ##     ##  ##        ######   
+#    ##        #########  ##     ##  ##        ##       
+#    ##    ##  ##     ##  ##     ##  ##        ##       
+#     ######   ##     ##   #######   ########  ######## 
 #
-#    ######## ##     ## ######## ##     ## ########  ######      
-#       ##    ##     ## ##       ###   ### ##       ##    ##  
-#       ##    ##     ## ##       #### #### ##       ##           
-#       ##    ######### ######   ## ### ## ######    ######     
-#       ##    ##     ## ##       ##     ## ##             ##    
-#       ##    ##     ## ##       ##     ## ##       ##    ##  
-#       ##    ##     ## ######## ##     ## ########  ######   
+#    ########  ##     ##  ########  ##     ##  ########   ######      
+#       ##     ##     ##  ##        ###   ###  ##        ##    ##  
+#       ##     ##     ##  ##        #### ####  ##        ##           
+#       ##     #########  ######    ## ### ##  ######     ######     
+#       ##     ##     ##  ##        ##     ##  ##              ##    
+#       ##     ##     ##  ##        ##     ##  ##        ##    ##  
+#       ##     ##     ##  ########  ##     ##  ########   ######   
 #
-#    ########     ###     ######  ##    ##       ##         #####   
-#    ##     ##   ## ##   ##    ## ##   ##      ####        ##   ##  
-#    ##     ##  ##   ##  ##       ##  ##         ##       ##     ## 
-#    ########  ##     ## ##       #####          ##       ##     ## 
-#    ##        ######### ##       ##  ##         ##       ##     ## 
-#    ##        ##     ## ##    ## ##   ##        ##   ###  ##   ##  
-#    ##        ##     ##  ######  ##    ##     ###### ###   #####   
+#    ########      ###      ######   ##    ##       ##           ##
+#    ##     ##    ## ##    ##    ##  ##   ##      ####         ####  
+#    ##     ##   ##   ##   ##        ##  ##         ##           ##
+#    ########   ##     ##  ##        #####          ##           ##
+#    ##         #########  ##        ##  ##         ##           ##  
+#    ##         ##     ##  ##    ##  ##   ##        ##    ###    ##       
+#    ##         ##     ##   ######   ##    ##     ######  ###  ######
 #
 #
 #     Created by Ricardo Correia for the Home Assistant Brasil community
 #     There are 10 Main colors, totaling 40 different themes!
-#     Release 1.0
+#     Release 1.1
 #
 #     I want to ask only 2 things for those who benefit from these themes:
 #
@@ -126,8 +126,6 @@ Caule Black Rose:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -138,7 +136,7 @@ Caule Black Rose:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -173,7 +171,13 @@ Caule Black Rose:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
-
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 ##########################################
 
@@ -210,8 +214,6 @@ Caule Black Purple:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -222,7 +224,7 @@ Caule Black Purple:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -257,6 +259,13 @@ Caule Black Purple:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -295,8 +304,6 @@ Caule Black Blue:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -307,7 +314,7 @@ Caule Black Blue:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -342,6 +349,13 @@ Caule Black Blue:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -380,8 +394,6 @@ Caule Black Aqua:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -392,7 +404,7 @@ Caule Black Aqua:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -427,6 +439,13 @@ Caule Black Aqua:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -465,8 +484,6 @@ Caule Black Green:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -477,7 +494,7 @@ Caule Black Green:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -512,6 +529,13 @@ Caule Black Green:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -550,8 +574,6 @@ Caule Black Yellow:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -562,7 +584,7 @@ Caule Black Yellow:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -597,6 +619,13 @@ Caule Black Yellow:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -635,8 +664,6 @@ Caule Black Orange:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -647,7 +674,7 @@ Caule Black Orange:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -682,6 +709,13 @@ Caule Black Orange:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -720,8 +754,6 @@ Caule Black Coral:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -732,7 +764,7 @@ Caule Black Coral:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -767,6 +799,13 @@ Caule Black Coral:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -805,8 +844,6 @@ Caule Black Pink:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -817,7 +854,7 @@ Caule Black Pink:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -852,6 +889,13 @@ Caule Black Pink:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -890,8 +934,6 @@ Caule Black Gray:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -902,7 +944,7 @@ Caule Black Gray:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -937,6 +979,13 @@ Caule Black Gray:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -982,8 +1031,6 @@ Caule Black Rose Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -994,7 +1041,7 @@ Caule Black Rose Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1029,6 +1076,13 @@ Caule Black Rose Glass:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1069,8 +1123,6 @@ Caule Black Purple Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1081,7 +1133,7 @@ Caule Black Purple Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1116,6 +1168,13 @@ Caule Black Purple Glass:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1156,8 +1215,6 @@ Caule Black Blue Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1168,7 +1225,7 @@ Caule Black Blue Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1203,6 +1260,13 @@ Caule Black Blue Glass:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1243,8 +1307,6 @@ Caule Black Aqua Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1255,7 +1317,7 @@ Caule Black Aqua Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1290,6 +1352,13 @@ Caule Black Aqua Glass:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1330,8 +1399,6 @@ Caule Black Green Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1342,7 +1409,7 @@ Caule Black Green Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1377,6 +1444,13 @@ Caule Black Green Glass:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1417,8 +1491,6 @@ Caule Black Yellow Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1429,7 +1501,7 @@ Caule Black Yellow Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1464,6 +1536,13 @@ Caule Black Yellow Glass:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1504,8 +1583,6 @@ Caule Black Orange Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1516,7 +1593,7 @@ Caule Black Orange Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1551,6 +1628,13 @@ Caule Black Orange Glass:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1591,8 +1675,6 @@ Caule Black Coral Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1603,7 +1685,7 @@ Caule Black Coral Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1638,6 +1720,13 @@ Caule Black Coral Glass:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1678,8 +1767,6 @@ Caule Black Pink Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1690,7 +1777,7 @@ Caule Black Pink Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1725,6 +1812,13 @@ Caule Black Pink Glass:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1765,8 +1859,6 @@ Caule Black Gray Glass:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1777,7 +1869,7 @@ Caule Black Gray Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1812,6 +1904,13 @@ Caule Black Gray Glass:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1835,8 +1934,8 @@ Caule Light Rose:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1856,8 +1955,6 @@ Caule Light Rose:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1868,14 +1965,14 @@ Caule Light Rose:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1903,6 +2000,13 @@ Caule Light Rose:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -1920,8 +2024,8 @@ Caule Light Purple:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -1941,8 +2045,6 @@ Caule Light Purple:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1953,14 +2055,14 @@ Caule Light Purple:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1988,6 +2090,13 @@ Caule Light Purple:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2005,8 +2114,8 @@ Caule Light Blue:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2026,8 +2135,6 @@ Caule Light Blue:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2038,14 +2145,14 @@ Caule Light Blue:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2073,6 +2180,13 @@ Caule Light Blue:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2090,8 +2204,8 @@ Caule Light Aqua:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2111,8 +2225,6 @@ Caule Light Aqua:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2123,14 +2235,14 @@ Caule Light Aqua:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2158,6 +2270,13 @@ Caule Light Aqua:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2175,8 +2294,8 @@ Caule Light Green:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2196,8 +2315,6 @@ Caule Light Green:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2208,14 +2325,14 @@ Caule Light Green:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2243,6 +2360,13 @@ Caule Light Green:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2260,8 +2384,8 @@ Caule Light Yellow:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2281,8 +2405,6 @@ Caule Light Yellow:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2293,14 +2415,14 @@ Caule Light Yellow:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2328,6 +2450,13 @@ Caule Light Yellow:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2345,8 +2474,8 @@ Caule Light Orange:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2366,8 +2495,6 @@ Caule Light Orange:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2378,14 +2505,14 @@ Caule Light Orange:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2413,6 +2540,13 @@ Caule Light Orange:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2430,8 +2564,8 @@ Caule Light Coral:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2451,8 +2585,6 @@ Caule Light Coral:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2463,14 +2595,14 @@ Caule Light Coral:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2498,6 +2630,13 @@ Caule Light Coral:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2515,8 +2654,8 @@ Caule Light Pink:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2536,8 +2675,6 @@ Caule Light Pink:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2548,14 +2685,14 @@ Caule Light Pink:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2583,6 +2720,13 @@ Caule Light Pink:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2595,13 +2739,13 @@ Caule Light Gray:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Main colors
-  primary-color: "#acacac"
-  light-primary-color: "#e2e2e2"
+  primary-color: "#666666"
+  light-primary-color: "#989898"
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2621,8 +2765,6 @@ Caule Light Gray:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2633,14 +2775,14 @@ Caule Light Gray:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2668,6 +2810,13 @@ Caule Light Gray:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2712,8 +2861,6 @@ Caule Dark Rose:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2724,7 +2871,7 @@ Caule Dark Rose:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -2759,6 +2906,13 @@ Caule Dark Rose:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2797,8 +2951,6 @@ Caule Dark Purple:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2809,7 +2961,7 @@ Caule Dark Purple:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -2844,6 +2996,13 @@ Caule Dark Purple:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2882,8 +3041,6 @@ Caule Dark Blue:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2894,7 +3051,7 @@ Caule Dark Blue:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -2929,6 +3086,13 @@ Caule Dark Blue:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -2967,8 +3131,6 @@ Caule Dark Aqua:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2979,7 +3141,7 @@ Caule Dark Aqua:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3014,6 +3176,13 @@ Caule Dark Aqua:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -3052,8 +3221,6 @@ Caule Dark Green:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3064,7 +3231,7 @@ Caule Dark Green:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3099,6 +3266,13 @@ Caule Dark Green:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -3137,8 +3311,6 @@ Caule Dark Yellow:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3149,7 +3321,7 @@ Caule Dark Yellow:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3184,6 +3356,13 @@ Caule Dark Yellow:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -3222,8 +3401,6 @@ Caule Dark Orange:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3234,7 +3411,7 @@ Caule Dark Orange:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3269,6 +3446,13 @@ Caule Dark Orange:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -3307,8 +3491,6 @@ Caule Dark Coral:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3319,7 +3501,7 @@ Caule Dark Coral:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3354,6 +3536,13 @@ Caule Dark Coral:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -3392,8 +3581,6 @@ Caule Dark Pink:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3404,7 +3591,7 @@ Caule Dark Pink:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3439,6 +3626,13 @@ Caule Dark Pink:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
 
 
 
@@ -3477,8 +3671,6 @@ Caule Dark Gray:
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-  mini-media-player-background-opacity: 1
-  mini-media-player-artwork-opacity: 1
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -3489,7 +3681,7 @@ Caule Dark Gray:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3524,3 +3716,14 @@ Caule Dark Gray:
   weather-icon-exceptional: url("/local/caule-themes-pack-1/animated-icons/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  # HACS
+  hacs-badge-color: var(--primary-color)
+  link-text-color: var(--disabled-color)
+  markdown-code-background-color: var(--divider-color)
+  google-blue-500: var(--primary-color)
+  accent-color: var(--disabled-color)
+  hacs-chip-color: var(--primary-color)
+
+
+
+
