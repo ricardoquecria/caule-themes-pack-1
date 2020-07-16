@@ -138,7 +138,7 @@ Caule Black Rose:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -228,7 +228,7 @@ Caule Black Purple:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -320,7 +320,7 @@ Caule Black Blue:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -412,7 +412,7 @@ Caule Black Aqua:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -504,7 +504,7 @@ Caule Black Green:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -596,7 +596,7 @@ Caule Black Yellow:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -688,7 +688,7 @@ Caule Black Orange:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -780,7 +780,7 @@ Caule Black Coral:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -872,7 +872,7 @@ Caule Black Pink:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -964,7 +964,7 @@ Caule Black Gray:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1063,7 +1063,7 @@ Caule Black Rose Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1157,7 +1157,7 @@ Caule Black Purple Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1251,7 +1251,7 @@ Caule Black Blue Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1345,7 +1345,7 @@ Caule Black Aqua Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1439,7 +1439,7 @@ Caule Black Green Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1533,7 +1533,7 @@ Caule Black Yellow Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1627,7 +1627,7 @@ Caule Black Orange Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1721,7 +1721,7 @@ Caule Black Coral Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1815,7 +1815,7 @@ Caule Black Pink Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1909,7 +1909,7 @@ Caule Black Gray Glass:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -1974,8 +1974,8 @@ Caule Light Rose:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2007,14 +2007,14 @@ Caule Light Rose:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2066,8 +2066,8 @@ Caule Light Purple:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2099,14 +2099,14 @@ Caule Light Purple:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2158,8 +2158,8 @@ Caule Light Blue:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2191,14 +2191,14 @@ Caule Light Blue:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2250,8 +2250,8 @@ Caule Light Aqua:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2283,14 +2283,14 @@ Caule Light Aqua:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2342,8 +2342,8 @@ Caule Light Green:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2375,14 +2375,14 @@ Caule Light Green:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2434,8 +2434,8 @@ Caule Light Yellow:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2467,14 +2467,14 @@ Caule Light Yellow:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2526,8 +2526,8 @@ Caule Light Orange:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2559,14 +2559,14 @@ Caule Light Orange:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2618,8 +2618,8 @@ Caule Light Coral:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2651,14 +2651,14 @@ Caule Light Coral:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2710,8 +2710,8 @@ Caule Light Pink:
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2743,14 +2743,14 @@ Caule Light Pink:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2797,13 +2797,13 @@ Caule Light Gray:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Main colors
-  primary-color: "#acacac"
-  light-primary-color: "#e2e2e2"
+  primary-color: "#666666"
+  light-primary-color: "#989898"
   graph-color: var(--primary-color)
   primary-background-color: "#f2f2f2"
   secondary-background-color: var(--primary-background-color)
-  divider-color: "#d6d6d6"
-  disabled-color: "#d6d6d6"
+  divider-color: "#ababab"
+  disabled-color: "#ababab"
   # Text colors
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
@@ -2835,14 +2835,14 @@ Caule Light Gray:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#d6d6d6"
+  paper-toggle-button-unchecked-bar-color: "#ababab"
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2933,7 +2933,7 @@ Caule Dark Rose:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3025,7 +3025,7 @@ Caule Dark Purple:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3117,7 +3117,7 @@ Caule Dark Blue:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3209,7 +3209,7 @@ Caule Dark Aqua:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3301,7 +3301,7 @@ Caule Dark Green:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3393,7 +3393,7 @@ Caule Dark Yellow:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3485,7 +3485,7 @@ Caule Dark Orange:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3577,7 +3577,7 @@ Caule Dark Coral:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3669,7 +3669,7 @@ Caule Dark Pink:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -3761,7 +3761,7 @@ Caule Dark Gray:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cores dos cards
+  # Cards colors
   paper-card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
