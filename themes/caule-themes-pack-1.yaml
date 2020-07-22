@@ -144,7 +144,7 @@ Caule Black Rose:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -233,7 +233,7 @@ Caule Black Purple:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -324,7 +324,7 @@ Caule Black Blue:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -415,7 +415,7 @@ Caule Black Aqua:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -506,7 +506,7 @@ Caule Black Green:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -597,7 +597,7 @@ Caule Black Yellow:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -688,7 +688,7 @@ Caule Black Orange:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -779,7 +779,7 @@ Caule Black Coral:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -870,7 +870,7 @@ Caule Black Pink:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -961,7 +961,7 @@ Caule Black Gray:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1059,7 +1059,7 @@ Caule Black Rose Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1152,7 +1152,7 @@ Caule Black Purple Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1245,7 +1245,7 @@ Caule Black Blue Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1338,7 +1338,7 @@ Caule Black Aqua Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1431,7 +1431,7 @@ Caule Black Green Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1524,7 +1524,7 @@ Caule Black Yellow Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1617,7 +1617,7 @@ Caule Black Orange Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1710,7 +1710,7 @@ Caule Black Coral Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1803,7 +1803,7 @@ Caule Black Pink Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1896,7 +1896,7 @@ Caule Black Gray Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2909,7 +2909,7 @@ Caule Dark Rose:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3000,7 +3000,7 @@ Caule Dark Purple:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3091,7 +3091,7 @@ Caule Dark Blue:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3182,7 +3182,7 @@ Caule Dark Aqua:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3273,7 +3273,7 @@ Caule Dark Green:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3364,7 +3364,7 @@ Caule Dark Yellow:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3455,7 +3455,7 @@ Caule Dark Orange:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3546,7 +3546,7 @@ Caule Dark Coral:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3637,7 +3637,7 @@ Caule Dark Pink:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3728,7 +3728,7 @@ Caule Dark Gray:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: var(--divider-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
