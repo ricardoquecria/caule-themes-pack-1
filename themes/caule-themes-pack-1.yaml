@@ -137,7 +137,7 @@ Caule Black Rose:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -152,7 +152,7 @@ Caule Black Rose:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -225,7 +225,7 @@ Caule Black Purple:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -240,7 +240,7 @@ Caule Black Purple:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -315,7 +315,7 @@ Caule Black Blue:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -330,7 +330,7 @@ Caule Black Blue:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -405,7 +405,7 @@ Caule Black Aqua:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -420,7 +420,7 @@ Caule Black Aqua:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -495,7 +495,7 @@ Caule Black Green:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -510,7 +510,7 @@ Caule Black Green:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -585,7 +585,7 @@ Caule Black Yellow:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -600,7 +600,7 @@ Caule Black Yellow:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -675,7 +675,7 @@ Caule Black Orange:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -690,7 +690,7 @@ Caule Black Orange:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -765,7 +765,7 @@ Caule Black Coral:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -780,7 +780,7 @@ Caule Black Coral:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -855,7 +855,7 @@ Caule Black Pink:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -870,7 +870,7 @@ Caule Black Pink:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -945,7 +945,7 @@ Caule Black Gray:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -960,7 +960,7 @@ Caule Black Gray:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -1042,7 +1042,7 @@ Caule Black Rose Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1057,7 +1057,7 @@ Caule Black Rose Glass:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -1134,7 +1134,7 @@ Caule Black Purple Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1149,7 +1149,7 @@ Caule Black Purple Glass:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -1226,7 +1226,7 @@ Caule Black Blue Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1241,7 +1241,7 @@ Caule Black Blue Glass:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -1318,7 +1318,7 @@ Caule Black Aqua Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1333,7 +1333,7 @@ Caule Black Aqua Glass:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -1410,7 +1410,7 @@ Caule Black Green Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1425,7 +1425,7 @@ Caule Black Green Glass:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -1502,7 +1502,7 @@ Caule Black Yellow Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1517,7 +1517,7 @@ Caule Black Yellow Glass:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -1594,7 +1594,7 @@ Caule Black Orange Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1609,7 +1609,7 @@ Caule Black Orange Glass:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -1686,7 +1686,7 @@ Caule Black Coral Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1701,7 +1701,7 @@ Caule Black Coral Glass:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -1778,7 +1778,7 @@ Caule Black Pink Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1793,7 +1793,7 @@ Caule Black Pink Glass:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -1870,7 +1870,7 @@ Caule Black Gray Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1885,7 +1885,7 @@ Caule Black Gray Glass:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -1966,7 +1966,7 @@ Caule Light Rose:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1981,7 +1981,7 @@ Caule Light Rose:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -2056,7 +2056,7 @@ Caule Light Purple:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2071,7 +2071,7 @@ Caule Light Purple:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -2146,7 +2146,7 @@ Caule Light Blue:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2161,7 +2161,7 @@ Caule Light Blue:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -2236,7 +2236,7 @@ Caule Light Aqua:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2251,7 +2251,7 @@ Caule Light Aqua:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -2326,7 +2326,7 @@ Caule Light Green:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2341,7 +2341,7 @@ Caule Light Green:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -2416,7 +2416,7 @@ Caule Light Yellow:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2431,7 +2431,7 @@ Caule Light Yellow:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -2506,7 +2506,7 @@ Caule Light Orange:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2521,7 +2521,7 @@ Caule Light Orange:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -2596,7 +2596,7 @@ Caule Light Coral:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2611,7 +2611,7 @@ Caule Light Coral:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -2686,7 +2686,7 @@ Caule Light Pink:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2701,7 +2701,7 @@ Caule Light Pink:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -2776,7 +2776,7 @@ Caule Light Gray:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2791,7 +2791,7 @@ Caule Light Gray:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -2872,7 +2872,7 @@ Caule Dark Rose:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2887,7 +2887,7 @@ Caule Dark Rose:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -2962,7 +2962,7 @@ Caule Dark Purple:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2977,7 +2977,7 @@ Caule Dark Purple:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -3052,7 +3052,7 @@ Caule Dark Blue:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3067,7 +3067,7 @@ Caule Dark Blue:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -3142,7 +3142,7 @@ Caule Dark Aqua:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3157,7 +3157,7 @@ Caule Dark Aqua:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -3232,7 +3232,7 @@ Caule Dark Green:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3247,7 +3247,7 @@ Caule Dark Green:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -3322,7 +3322,7 @@ Caule Dark Yellow:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3337,7 +3337,7 @@ Caule Dark Yellow:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -3412,7 +3412,7 @@ Caule Dark Orange:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3427,7 +3427,7 @@ Caule Dark Orange:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -3502,7 +3502,7 @@ Caule Dark Coral:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3517,7 +3517,7 @@ Caule Dark Coral:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -3592,7 +3592,7 @@ Caule Dark Pink:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3607,7 +3607,7 @@ Caule Dark Pink:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
@@ -3682,7 +3682,7 @@ Caule Dark Gray:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3697,7 +3697,7 @@ Caule Dark Gray:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  card-background-color: var(--primary-background-color)
+#  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
