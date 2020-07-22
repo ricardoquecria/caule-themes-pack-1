@@ -97,8 +97,8 @@
 
 Caule Black Rose:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#aa3151"
   light-primary-color: "#b8536d"
@@ -144,7 +144,7 @@ Caule Black Rose:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -186,8 +186,8 @@ Caule Black Rose:
 
 Caule Black Purple:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#904eab"
   light-primary-color: "#c983e4"
@@ -233,7 +233,7 @@ Caule Black Purple:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -277,8 +277,8 @@ Caule Black Purple:
 
 Caule Black Blue:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#009bb5"
   light-primary-color: "#5ed1eb"
@@ -324,7 +324,7 @@ Caule Black Blue:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -368,8 +368,8 @@ Caule Black Blue:
 
 Caule Black Aqua:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#11ab93"
   light-primary-color: "#62e3c8"
@@ -415,7 +415,7 @@ Caule Black Aqua:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -459,8 +459,8 @@ Caule Black Aqua:
 
 Caule Black Green:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#6ca049"
   light-primary-color: "#a1d77b"
@@ -506,7 +506,7 @@ Caule Black Green:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -550,8 +550,8 @@ Caule Black Green:
 
 Caule Black Yellow:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#d6a245"
   light-primary-color: "#ffd979"
@@ -597,7 +597,7 @@ Caule Black Yellow:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -641,8 +641,8 @@ Caule Black Yellow:
 
 Caule Black Orange:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#d25f36"
   light-primary-color: "#ff9568"
@@ -688,7 +688,7 @@ Caule Black Orange:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -732,8 +732,8 @@ Caule Black Orange:
 
 Caule Black Coral:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#fa6e5e"
   light-primary-color: "#ffa792"
@@ -779,7 +779,7 @@ Caule Black Coral:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -823,8 +823,8 @@ Caule Black Coral:
 
 Caule Black Pink:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#f36f92"
   light-primary-color: "#ffa8c9"
@@ -870,7 +870,7 @@ Caule Black Pink:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -914,8 +914,8 @@ Caule Black Pink:
 
 Caule Black Gray:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#acacac"
   light-primary-color: "#e2e2e2"
@@ -961,7 +961,7 @@ Caule Black Gray:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1010,8 +1010,8 @@ Caule Black Gray:
 
 Caule Black Rose Glass:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/rose.jpg") fixed'
   # Main colors
@@ -1059,7 +1059,7 @@ Caule Black Rose Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1103,8 +1103,8 @@ Caule Black Rose Glass:
 
 Caule Black Purple Glass:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/purple.jpg") fixed'
   # Main colors
@@ -1152,7 +1152,7 @@ Caule Black Purple Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1196,8 +1196,8 @@ Caule Black Purple Glass:
 
 Caule Black Blue Glass:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/blue.jpg") fixed'
   # Main colors
@@ -1245,7 +1245,7 @@ Caule Black Blue Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1289,8 +1289,8 @@ Caule Black Blue Glass:
 
 Caule Black Aqua Glass:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/aqua.jpg") fixed'
   # Main colors
@@ -1338,7 +1338,7 @@ Caule Black Aqua Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1382,8 +1382,8 @@ Caule Black Aqua Glass:
 
 Caule Black Green Glass:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/green.jpg") fixed'
   # Main colors
@@ -1431,7 +1431,7 @@ Caule Black Green Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1475,8 +1475,8 @@ Caule Black Green Glass:
 
 Caule Black Yellow Glass:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/yellow.jpg") fixed'
   # Main colors
@@ -1524,7 +1524,7 @@ Caule Black Yellow Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1568,8 +1568,8 @@ Caule Black Yellow Glass:
 
 Caule Black Orange Glass:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/orange.jpg") fixed'
   # Main colors
@@ -1617,7 +1617,7 @@ Caule Black Orange Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1661,8 +1661,8 @@ Caule Black Orange Glass:
 
 Caule Black Coral Glass:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/coral.jpg") fixed'
   # Main colors
@@ -1710,7 +1710,7 @@ Caule Black Coral Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1754,8 +1754,8 @@ Caule Black Coral Glass:
 
 Caule Black Pink Glass:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/pink.jpg") fixed'
   # Main colors
@@ -1803,7 +1803,7 @@ Caule Black Pink Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1847,8 +1847,8 @@ Caule Black Pink Glass:
 
 Caule Black Gray Glass:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/gray.jpg") fixed'
   # Main colors
@@ -1896,7 +1896,7 @@ Caule Black Gray Glass:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -1946,8 +1946,8 @@ Caule Black Gray Glass:
 
 Caule Light Rose:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#aa3151"
   light-primary-color: "#b8536d"
@@ -2037,8 +2037,8 @@ Caule Light Rose:
 
 Caule Light Purple:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#904eab"
   light-primary-color: "#c983e4"
@@ -2128,8 +2128,8 @@ Caule Light Purple:
 
 Caule Light Blue:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#009bb5"
   light-primary-color: "#5ed1eb"
@@ -2219,8 +2219,8 @@ Caule Light Blue:
 
 Caule Light Aqua:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#11ab93"
   light-primary-color: "#62e3c8"
@@ -2310,8 +2310,8 @@ Caule Light Aqua:
 
 Caule Light Green:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#6ca049"
   light-primary-color: "#a1d77b"
@@ -2401,8 +2401,8 @@ Caule Light Green:
 
 Caule Light Yellow:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#d6a245"
   light-primary-color: "#ffd979"
@@ -2492,8 +2492,8 @@ Caule Light Yellow:
 
 Caule Light Orange:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#d25f36"
   light-primary-color: "#ff9568"
@@ -2583,8 +2583,8 @@ Caule Light Orange:
 
 Caule Light Coral:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#fa6e5e"
   light-primary-color: "#ffa792"
@@ -2674,8 +2674,8 @@ Caule Light Coral:
 
 Caule Light Pink:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#f36f92"
   light-primary-color: "#ffa8c9"
@@ -2765,8 +2765,8 @@ Caule Light Pink:
 
 Caule Light Gray:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#666666"
   light-primary-color: "#989898"
@@ -2862,8 +2862,8 @@ Caule Light Gray:
 
 Caule Dark Rose:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#aa3151"
   light-primary-color: "#b8536d"
@@ -2909,7 +2909,7 @@ Caule Dark Rose:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -2953,8 +2953,8 @@ Caule Dark Rose:
 
 Caule Dark Purple:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#904eab"
   light-primary-color: "#c983e4"
@@ -3000,7 +3000,7 @@ Caule Dark Purple:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3044,8 +3044,8 @@ Caule Dark Purple:
 
 Caule Dark Blue:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#009bb5"
   light-primary-color: "#5ed1eb"
@@ -3091,7 +3091,7 @@ Caule Dark Blue:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3135,8 +3135,8 @@ Caule Dark Blue:
 
 Caule Dark Aqua:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#11ab93"
   light-primary-color: "#62e3c8"
@@ -3182,7 +3182,7 @@ Caule Dark Aqua:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3226,8 +3226,8 @@ Caule Dark Aqua:
 
 Caule Dark Green:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#6ca049"
   light-primary-color: "#a1d77b"
@@ -3273,7 +3273,7 @@ Caule Dark Green:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3317,8 +3317,8 @@ Caule Dark Green:
 
 Caule Dark Yellow:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#d6a245"
   light-primary-color: "#ffd979"
@@ -3364,7 +3364,7 @@ Caule Dark Yellow:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3408,8 +3408,8 @@ Caule Dark Yellow:
 
 Caule Dark Orange:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#d25f36"
   light-primary-color: "#ff9568"
@@ -3455,7 +3455,7 @@ Caule Dark Orange:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3499,8 +3499,8 @@ Caule Dark Orange:
 
 Caule Dark Coral:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#fa6e5e"
   light-primary-color: "#ffa792"
@@ -3546,7 +3546,7 @@ Caule Dark Coral:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3590,8 +3590,8 @@ Caule Dark Coral:
 
 Caule Dark Pink:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#f36f92"
   light-primary-color: "#ffa8c9"
@@ -3637,7 +3637,7 @@ Caule Dark Pink:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
@@ -3681,8 +3681,8 @@ Caule Dark Pink:
 
 Caule Dark Gray:
 
-  # Change the value below 6px to 0px to remove the rounded corners
-  ha-card-border-radius: 6px
+  # Change the value below 8px to 0px to remove the rounded corners
+  ha-card-border-radius: 8px
   # Main colors
   primary-color: "#acacac"
   light-primary-color: "#e2e2e2"
@@ -3728,7 +3728,7 @@ Caule Dark Gray:
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
-  paper-toggle-button-unchecked-bar-color: "#333333"
+  paper-toggle-button-unchecked-bar-color: var(--divider-color)
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
