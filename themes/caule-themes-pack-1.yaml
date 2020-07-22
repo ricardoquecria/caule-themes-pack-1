@@ -1,26 +1,26 @@
 
-#     ######      ###     ##     ##  ##        ######## 
-#    ##    ##    ## ##    ##     ##  ##        ##       
-#    ##         ##   ##   ##     ##  ##        ##       
-#    ##        ##     ##  ##     ##  ##        ######   
-#    ##        #########  ##     ##  ##        ##       
-#    ##    ##  ##     ##  ##     ##  ##        ##       
-#     ######   ##     ##   #######   ########  ######## 
+#     ######      ###     ##     ##  ##        ########
+#    ##    ##    ## ##    ##     ##  ##        ##
+#    ##         ##   ##   ##     ##  ##        ##
+#    ##        ##     ##  ##     ##  ##        ######
+#    ##        #########  ##     ##  ##        ##
+#    ##    ##  ##     ##  ##     ##  ##        ##
+#     ######   ##     ##   #######   ########  ########
 #
-#    ########  ##     ##  ########  ##     ##  ########   ######      
-#       ##     ##     ##  ##        ###   ###  ##        ##    ##  
-#       ##     ##     ##  ##        #### ####  ##        ##           
-#       ##     #########  ######    ## ### ##  ######     ######     
-#       ##     ##     ##  ##        ##     ##  ##              ##    
-#       ##     ##     ##  ##        ##     ##  ##        ##    ##  
-#       ##     ##     ##  ########  ##     ##  ########   ######   
+#    ########  ##     ##  ########  ##     ##  ########   ######
+#       ##     ##     ##  ##        ###   ###  ##        ##    ##
+#       ##     ##     ##  ##        #### ####  ##        ##
+#       ##     #########  ######    ## ### ##  ######     ######
+#       ##     ##     ##  ##        ##     ##  ##              ##
+#       ##     ##     ##  ##        ##     ##  ##        ##    ##
+#       ##     ##     ##  ########  ##     ##  ########   ######
 #
 #    ########      ###      ######   ##    ##       ##           ##
-#    ##     ##    ## ##    ##    ##  ##   ##      ####         ####  
+#    ##     ##    ## ##    ##    ##  ##   ##      ####         ####
 #    ##     ##   ##   ##   ##        ##  ##         ##           ##
 #    ########   ##     ##  ##        #####          ##           ##
-#    ##         #########  ##        ##  ##         ##           ##  
-#    ##         ##     ##  ##    ##  ##   ##        ##    ###    ##       
+#    ##         #########  ##        ##  ##         ##           ##
+#    ##         ##     ##  ##    ##  ##   ##        ##    ###    ##
 #    ##         ##     ##   ######   ##    ##     ######  ###  ######
 #
 #
@@ -41,7 +41,7 @@
 #
 #     - Caule Black Rose
 #     - Caule Black Purple
-#     - Caule Black Blue 
+#     - Caule Black Blue
 #     - Caule Black Aqua
 #     - Caule Black Green
 #     - Caule Black Yellow
@@ -52,7 +52,7 @@
 #
 #     - Caule Dark Rose
 #     - Caule Dark Purple
-#     - Caule Dark Blue 
+#     - Caule Dark Blue
 #     - Caule Dark Aqua
 #     - Caule Dark Green
 #     - Caule Dark Yellow
@@ -63,7 +63,7 @@
 #
 #     - Caule Light Rose
 #     - Caule Light Purple
-#     - Caule Light Blue 
+#     - Caule Light Blue
 #     - Caule Light Aqua
 #     - Caule Light Green
 #     - Caule Light Yellow
@@ -74,26 +74,26 @@
 #
 #     - Caule Black Rose Glass
 #     - Caule Black Purple Glass
-#     - Caule Black Blue Glass 
+#     - Caule Black Blue Glass
 #     - Caule Black Aqua Glass
 #     - Caule Black Green Glass
 #     - Caule Black Yellow Glass
 #     - Caule Black Orange Glass
 #     - Caule Black Coral Glass
 #     - Caule Black Pink Glass
-#     - Caule Black Gray Glass 
+#     - Caule Black Gray Glass
 #
 #
 
 
-#                                                                                  
-#    #####   #         ##     ####   #    # 
-#    #    #  #        #  #   #    #  #   #  
-#    #####   #       #    #  #       ####   
-#    #    #  #       ######  #       #  #   
-#    #    #  #       #    #  #    #  #   #  
-#    #####   ######  #    #   ####   #    #  
-#                                                                         
+#
+#    #####   #         ##     ####   #    #
+#    #    #  #        #  #   #    #  #   #
+#    #####   #       #    #  #       ####
+#    #    #  #       ######  #       #  #
+#    #    #  #       #    #  #    #  #   #
+#    #####   ######  #    #   ####   #    #
+#
 
 Caule Black Rose:
 
@@ -137,7 +137,7 @@ Caule Black Rose:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#191919"
+  ha-card-background: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -225,7 +225,7 @@ Caule Black Purple:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#191919"
+  ha-card-background: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -315,7 +315,7 @@ Caule Black Blue:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#191919"
+  ha-card-background: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -405,7 +405,7 @@ Caule Black Aqua:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#191919"
+  ha-card-background: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -495,7 +495,7 @@ Caule Black Green:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#191919"
+  ha-card-background: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -585,7 +585,7 @@ Caule Black Yellow:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#191919"
+  ha-card-background: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -675,7 +675,7 @@ Caule Black Orange:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#191919"
+  ha-card-background: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -765,7 +765,7 @@ Caule Black Coral:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#191919"
+  ha-card-background: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -855,7 +855,7 @@ Caule Black Pink:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#191919"
+  ha-card-background: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -945,7 +945,7 @@ Caule Black Gray:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#191919"
+  ha-card-background: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -989,20 +989,20 @@ Caule Black Gray:
 
 
 
-#                                                                                                               
-#      ####   #         ##     ####    ####  
-#     #    #  #        #  #   #       #      
-#     #       #       #    #   ####    ####  
-#     #  ###  #       ######       #       # 
-#     #    #  #       #    #  #    #  #    # 
-#      ####   ######  #    #   ####    ####                                          
-#                                                                                               
+#
+#      ####   #         ##     ####    ####
+#     #    #  #        #  #   #       #
+#     #       #       #    #   ####    ####
+#     #  ###  #       ######       #       #
+#     #    #  #       #    #  #    #  #    #
+#      ####   ######  #    #   ####    ####
+#
 
 Caule Black Rose Glass:
 
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
-  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  # Place the backgrounds in the folder  config/www/images/backgrounds
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/rose.jpg") fixed'
   # Main colors
   primary-color: "#aa3151"
@@ -1042,7 +1042,7 @@ Caule Black Rose Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "rgba(100, 100, 100, 0.15)"
+  ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1094,7 +1094,7 @@ Caule Black Purple Glass:
 
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
-  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  # Place the backgrounds in the folder  config/www/images/backgrounds
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/purple.jpg") fixed'
   # Main colors
   primary-color: "#904eab"
@@ -1134,7 +1134,7 @@ Caule Black Purple Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "rgba(100, 100, 100, 0.15)"
+  ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1186,7 +1186,7 @@ Caule Black Blue Glass:
 
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
-  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  # Place the backgrounds in the folder  config/www/images/backgrounds
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/blue.jpg") fixed'
   # Main colors
   primary-color: "#009bb5"
@@ -1226,7 +1226,7 @@ Caule Black Blue Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "rgba(100, 100, 100, 0.15)"
+  ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1278,7 +1278,7 @@ Caule Black Aqua Glass:
 
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
-  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  # Place the backgrounds in the folder  config/www/images/backgrounds
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/aqua.jpg") fixed'
   # Main colors
   primary-color: "#11ab93"
@@ -1318,7 +1318,7 @@ Caule Black Aqua Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "rgba(100, 100, 100, 0.15)"
+  ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1370,7 +1370,7 @@ Caule Black Green Glass:
 
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
-  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  # Place the backgrounds in the folder  config/www/images/backgrounds
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/green.jpg") fixed'
   # Main colors
   primary-color: "#6ca049"
@@ -1410,7 +1410,7 @@ Caule Black Green Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "rgba(100, 100, 100, 0.15)"
+  ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1462,7 +1462,7 @@ Caule Black Yellow Glass:
 
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
-  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  # Place the backgrounds in the folder  config/www/images/backgrounds
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/yellow.jpg") fixed'
   # Main colors
   primary-color: "#d6a245"
@@ -1502,7 +1502,7 @@ Caule Black Yellow Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "rgba(100, 100, 100, 0.15)"
+  ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1554,7 +1554,7 @@ Caule Black Orange Glass:
 
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
-  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  # Place the backgrounds in the folder  config/www/images/backgrounds
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/orange.jpg") fixed'
   # Main colors
   primary-color: "#d25f36"
@@ -1594,7 +1594,7 @@ Caule Black Orange Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "rgba(100, 100, 100, 0.15)"
+  ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1646,7 +1646,7 @@ Caule Black Coral Glass:
 
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
-  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  # Place the backgrounds in the folder  config/www/images/backgrounds
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/coral.jpg") fixed'
   # Main colors
   primary-color: "#fa6e5e"
@@ -1686,7 +1686,7 @@ Caule Black Coral Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "rgba(100, 100, 100, 0.15)"
+  ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1738,7 +1738,7 @@ Caule Black Pink Glass:
 
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
-  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  # Place the backgrounds in the folder  config/www/images/backgrounds
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/pink.jpg") fixed'
   # Main colors
   primary-color: "#f36f92"
@@ -1778,7 +1778,7 @@ Caule Black Pink Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "rgba(100, 100, 100, 0.15)"
+  ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1830,7 +1830,7 @@ Caule Black Gray Glass:
 
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
-  # Place the backgrounds in the folder  config/www/images/backgrounds 
+  # Place the backgrounds in the folder  config/www/images/backgrounds
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/caule-themes-pack-1/gray.jpg") fixed'
   # Main colors
   primary-color: "#acacac"
@@ -1870,7 +1870,7 @@ Caule Black Gray Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "rgba(100, 100, 100, 0.15)"
+  ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1914,15 +1914,15 @@ Caule Black Gray Glass:
 
 
 
-#                                                                                                         
-#    #       #   ####   #    #  #####  
-#    #       #  #    #  #    #    #     
-#    #       #  #       ######    #   
-#    #       #  #  ###  #    #    #    
-#    #       #  #    #  #    #    #    
-#    ######  #   ####   #    #    #    
-#         
-                                                          
+#
+#    #       #   ####   #    #  #####
+#    #       #  #    #  #    #    #
+#    #       #  #       ######    #
+#    #       #  #  ###  #    #    #
+#    #       #  #    #  #    #    #
+#    ######  #   ####   #    #    #
+#
+
 
 Caule Light Rose:
 
@@ -1966,7 +1966,7 @@ Caule Light Rose:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#ffffff"
+  ha-card-background: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2056,7 +2056,7 @@ Caule Light Purple:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#ffffff"
+  ha-card-background: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2146,7 +2146,7 @@ Caule Light Blue:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#ffffff"
+  ha-card-background: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2236,7 +2236,7 @@ Caule Light Aqua:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#ffffff"
+  ha-card-background: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2326,7 +2326,7 @@ Caule Light Green:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#ffffff"
+  ha-card-background: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2416,7 +2416,7 @@ Caule Light Yellow:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#ffffff"
+  ha-card-background: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2506,7 +2506,7 @@ Caule Light Orange:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#ffffff"
+  ha-card-background: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2596,7 +2596,7 @@ Caule Light Coral:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#ffffff"
+  ha-card-background: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2686,7 +2686,7 @@ Caule Light Pink:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#ffffff"
+  ha-card-background: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2776,7 +2776,7 @@ Caule Light Gray:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#ffffff"
+  ha-card-background: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2820,15 +2820,15 @@ Caule Light Gray:
 
 
 
-#                             
-#    #####     ##    #####   #    # 
-#    #    #   #  #   #    #  #   #  
-#    #    #  #    #  #    #  ####   
-#    #    #  ######  #####   #  #   
-#    #    #  #    #  #   #   #   #  
-#    #####   #    #  #    #  #    # 
-#                                    
-                                
+#
+#    #####     ##    #####   #    #
+#    #    #   #  #   #    #  #   #
+#    #    #  #    #  #    #  ####
+#    #    #  ######  #####   #  #
+#    #    #  #    #  #   #   #   #
+#    #####   #    #  #    #  #    #
+#
+
 
 Caule Dark Rose:
 
@@ -2872,7 +2872,7 @@ Caule Dark Rose:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#2A282D"
+  ha-card-background: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2962,7 +2962,7 @@ Caule Dark Purple:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#2A282D"
+  ha-card-background: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3052,7 +3052,7 @@ Caule Dark Blue:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#2A282D"
+  ha-card-background: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3142,7 +3142,7 @@ Caule Dark Aqua:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#2A282D"
+  ha-card-background: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3232,7 +3232,7 @@ Caule Dark Green:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#2A282D"
+  ha-card-background: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3322,7 +3322,7 @@ Caule Dark Yellow:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#2A282D"
+  ha-card-background: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3412,7 +3412,7 @@ Caule Dark Orange:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#2A282D"
+  ha-card-background: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3502,7 +3502,7 @@ Caule Dark Coral:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#2A282D"
+  ha-card-background: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3592,7 +3592,7 @@ Caule Dark Pink:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#2A282D"
+  ha-card-background: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3682,7 +3682,7 @@ Caule Dark Gray:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  card-background-color: "#2A282D"
+  ha-card-background: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3723,7 +3723,3 @@ Caule Dark Gray:
   google-blue-500: var(--primary-color)
   accent-color: var(--disabled-color)
   hacs-chip-color: var(--primary-color)
-
-
-
-
