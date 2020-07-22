@@ -81,8 +81,8 @@ frontend:
 
 **ATENÇÃO! É necessário reiniciar após essa configuração!**
 
-# Instalação via HACS (Home Assistant Community Store)
-(Se você não o HACS) [Saiba como instalar](https://hacs.xyz/docs/installation/manual) 
+# Instalação automática via HACS (Home Assistant Community Store)
+(Se você não o HACS) [Saiba como instalar](https://hacs.xyz/docs/installation/manual), ou siga o método de instalação manual abaixo. 
 
 * Vá até a loja HACS
 * Clique em **"Frontend"**
