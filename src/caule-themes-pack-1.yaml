@@ -137,7 +137,7 @@ Caule Black Rose:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -225,7 +225,7 @@ Caule Black Purple:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -315,7 +315,7 @@ Caule Black Blue:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -405,7 +405,7 @@ Caule Black Aqua:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -495,7 +495,7 @@ Caule Black Green:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -585,7 +585,7 @@ Caule Black Yellow:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -675,7 +675,7 @@ Caule Black Orange:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -765,7 +765,7 @@ Caule Black Coral:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -855,7 +855,7 @@ Caule Black Pink:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -945,7 +945,7 @@ Caule Black Gray:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#191919"
+  card-background-color: "#191919"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1042,7 +1042,7 @@ Caule Black Rose Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1134,7 +1134,7 @@ Caule Black Purple Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1226,7 +1226,7 @@ Caule Black Blue Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1318,7 +1318,7 @@ Caule Black Aqua Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1410,7 +1410,7 @@ Caule Black Green Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1502,7 +1502,7 @@ Caule Black Yellow Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1594,7 +1594,7 @@ Caule Black Orange Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1686,7 +1686,7 @@ Caule Black Coral Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1778,7 +1778,7 @@ Caule Black Pink Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1870,7 +1870,7 @@ Caule Black Gray Glass:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "rgba(100, 100, 100, 0.15)"
+  card-background-color: "rgba(100, 100, 100, 0.15)"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -1966,7 +1966,7 @@ Caule Light Rose:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2056,7 +2056,7 @@ Caule Light Purple:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2146,7 +2146,7 @@ Caule Light Blue:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2236,7 +2236,7 @@ Caule Light Aqua:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2326,7 +2326,7 @@ Caule Light Green:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2416,7 +2416,7 @@ Caule Light Yellow:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2506,7 +2506,7 @@ Caule Light Orange:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2596,7 +2596,7 @@ Caule Light Coral:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2686,7 +2686,7 @@ Caule Light Pink:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2776,7 +2776,7 @@ Caule Light Gray:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#ffffff"
+  card-background-color: "#ffffff"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2872,7 +2872,7 @@ Caule Dark Rose:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -2962,7 +2962,7 @@ Caule Dark Purple:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3052,7 +3052,7 @@ Caule Dark Blue:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3142,7 +3142,7 @@ Caule Dark Aqua:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3232,7 +3232,7 @@ Caule Dark Green:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3322,7 +3322,7 @@ Caule Dark Yellow:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3412,7 +3412,7 @@ Caule Dark Orange:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3502,7 +3502,7 @@ Caule Dark Coral:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3592,7 +3592,7 @@ Caule Dark Pink:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
@@ -3682,7 +3682,7 @@ Caule Dark Gray:
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
   # Cards colors
-  paper-card-background-color: "#2A282D"
+  card-background-color: "#2A282D"
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
