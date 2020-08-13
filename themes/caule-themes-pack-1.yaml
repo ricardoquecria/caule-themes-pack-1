@@ -177,7 +177,7 @@ Caule Black Rose:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 ##########################################
@@ -266,7 +266,7 @@ Caule Black Purple:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -357,7 +357,7 @@ Caule Black Blue:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -448,7 +448,7 @@ Caule Black Aqua:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -539,7 +539,7 @@ Caule Black Green:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -630,7 +630,7 @@ Caule Black Yellow:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -721,7 +721,7 @@ Caule Black Orange:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -812,7 +812,7 @@ Caule Black Coral:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -903,7 +903,7 @@ Caule Black Pink:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -994,7 +994,7 @@ Caule Black Gray:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -1092,7 +1092,7 @@ Caule Black Rose Glass:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -1185,7 +1185,7 @@ Caule Black Purple Glass:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -1278,7 +1278,7 @@ Caule Black Blue Glass:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -1371,7 +1371,7 @@ Caule Black Aqua Glass:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -1464,7 +1464,7 @@ Caule Black Green Glass:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -1557,7 +1557,7 @@ Caule Black Yellow Glass:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -1650,7 +1650,7 @@ Caule Black Orange Glass:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -1743,7 +1743,7 @@ Caule Black Coral Glass:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -1836,7 +1836,7 @@ Caule Black Pink Glass:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -1929,7 +1929,7 @@ Caule Black Gray Glass:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -2026,7 +2026,7 @@ Caule Light Rose:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -2117,7 +2117,7 @@ Caule Light Purple:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -2208,7 +2208,7 @@ Caule Light Blue:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -2299,7 +2299,7 @@ Caule Light Aqua:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -2390,7 +2390,7 @@ Caule Light Green:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -2481,7 +2481,7 @@ Caule Light Yellow:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -2572,7 +2572,7 @@ Caule Light Orange:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -2663,7 +2663,7 @@ Caule Light Coral:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -2754,7 +2754,7 @@ Caule Light Pink:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -2845,7 +2845,7 @@ Caule Light Gray:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -2942,7 +2942,7 @@ Caule Dark Rose:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -3033,7 +3033,7 @@ Caule Dark Purple:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -3124,7 +3124,7 @@ Caule Dark Blue:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -3215,7 +3215,7 @@ Caule Dark Aqua:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -3306,7 +3306,7 @@ Caule Dark Green:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -3397,7 +3397,7 @@ Caule Dark Yellow:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -3488,7 +3488,7 @@ Caule Dark Orange:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -3579,7 +3579,7 @@ Caule Dark Coral:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -3670,7 +3670,7 @@ Caule Dark Pink:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
@@ -3761,7 +3761,7 @@ Caule Dark Gray:
   link-text-color: var(--disabled-color)
   markdown-code-background-color: var(--divider-color)
   google-blue-500: var(--primary-color)
-  accent-color: var(--disabled-color)
+  accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
 
 
