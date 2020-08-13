@@ -3720,7 +3720,7 @@ Caule Dark Gray:
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--light-primary-color)
-  # Cards colors
+  # Cards colors 
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
   paper-listbox-background-color: var(--primary-background-color)
