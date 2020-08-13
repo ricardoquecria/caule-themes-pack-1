@@ -1,31 +1,31 @@
-#     ######      ###     ##     ##  ##        ######## 
-#    ##    ##    ## ##    ##     ##  ##        ##       
-#    ##         ##   ##   ##     ##  ##        ##       
-#    ##        ##     ##  ##     ##  ##        ######   
-#    ##        #########  ##     ##  ##        ##       
-#    ##    ##  ##     ##  ##     ##  ##        ##       
-#     ######   ##     ##   #######   ########  ######## 
+#      ######      ###     ##     ##  ##        ######## 
+#     ##    ##    ## ##    ##     ##  ##        ##       
+#     ##         ##   ##   ##     ##  ##        ##       
+#     ##        ##     ##  ##     ##  ##        ######   
+#     ##        #########  ##     ##  ##        ##       
+#     ##    ##  ##     ##  ##     ##  ##        ##       
+#      ######   ##     ##   #######   ########  ######## 
 #
-#    ########  ##     ##  ########  ##     ##  ########   ######      
-#       ##     ##     ##  ##        ###   ###  ##        ##    ##  
-#       ##     ##     ##  ##        #### ####  ##        ##           
-#       ##     #########  ######    ## ### ##  ######     ######     
-#       ##     ##     ##  ##        ##     ##  ##              ##    
-#       ##     ##     ##  ##        ##     ##  ##        ##    ##  
-#       ##     ##     ##  ########  ##     ##  ########   ######   
+#     ########  ##     ##  ########  ##     ##  ########   ######      
+#        ##     ##     ##  ##        ###   ###  ##        ##    ##  
+#        ##     ##     ##  ##        #### ####  ##        ##           
+#        ##     #########  ######    ## ### ##  ######     ######     
+#        ##     ##     ##  ##        ##     ##  ##              ##    
+#        ##     ##     ##  ##        ##     ##  ##        ##    ##  
+#        ##     ##     ##  ########  ##     ##  ########   ######   
 #
-#    ########      ###      ######   ##    ##       ##          #######  
-#    ##     ##    ## ##    ##    ##  ##   ##      ####         ##     ## 
-#    ##     ##   ##   ##   ##        ##  ##         ##                ## 
-#    ########   ##     ##  ##        #####          ##          #######  
-#    ##         #########  ##        ##  ##         ##         ##        
-#    ##         ##     ##  ##    ##  ##   ##        ##    ###  ##        
-#    ##         ##     ##   ######   ##    ##     ######  ###  ######### 
+#     ########      ###      ######   ##    ##       ##          #######  
+#     ##     ##    ## ##    ##    ##  ##   ##      ####         ##     ## 
+#     ##     ##   ##   ##   ##        ##  ##         ##                ## 
+#     ########   ##     ##  ##        #####          ##          #######  
+#     ##         #########  ##        ##  ##         ##                ## 
+#     ##         ##     ##  ##    ##  ##   ##        ##    ###  ##     ## 
+#     ##         ##     ##   ######   ##    ##     ######  ###   #######  
 #
 #
 #     Created by Ricardo Correia for the Home Assistant Brasil community
 #     There are 10 Main colors, totaling 40 different themes!
-#     Release 1.2
+#     Release 1.3
 #
 #     I want to ask only 2 things for those who benefit from these themes:
 #
@@ -110,7 +110,7 @@ Caule Black Rose:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -130,11 +130,12 @@ Caule Black Rose:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#191919"
   paper-card-background-color: var(--ha-card-background)
@@ -199,7 +200,7 @@ Caule Black Purple:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -219,11 +220,12 @@ Caule Black Purple:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#191919"
   paper-card-background-color: var(--ha-card-background)
@@ -290,7 +292,7 @@ Caule Black Blue:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -310,11 +312,12 @@ Caule Black Blue:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#191919"
   paper-card-background-color: var(--ha-card-background)
@@ -381,7 +384,7 @@ Caule Black Aqua:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -401,11 +404,12 @@ Caule Black Aqua:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#191919"
   paper-card-background-color: var(--ha-card-background)
@@ -472,7 +476,7 @@ Caule Black Green:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -492,11 +496,12 @@ Caule Black Green:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#191919"
   paper-card-background-color: var(--ha-card-background)
@@ -563,7 +568,7 @@ Caule Black Yellow:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -583,11 +588,12 @@ Caule Black Yellow:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#191919"
   paper-card-background-color: var(--ha-card-background)
@@ -654,7 +660,7 @@ Caule Black Orange:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -674,11 +680,12 @@ Caule Black Orange:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#191919"
   paper-card-background-color: var(--ha-card-background)
@@ -745,7 +752,7 @@ Caule Black Coral:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -765,11 +772,12 @@ Caule Black Coral:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#191919"
   paper-card-background-color: var(--ha-card-background)
@@ -836,7 +844,7 @@ Caule Black Pink:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -856,11 +864,12 @@ Caule Black Pink:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#191919"
   paper-card-background-color: var(--ha-card-background)
@@ -927,7 +936,7 @@ Caule Black Gray:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -947,11 +956,12 @@ Caule Black Gray:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#191919"
   paper-card-background-color: var(--ha-card-background)
@@ -1025,7 +1035,7 @@ Caule Black Rose Glass:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1045,11 +1055,12 @@ Caule Black Rose Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-card-background-color: var(--ha-card-background)
@@ -1118,7 +1129,7 @@ Caule Black Purple Glass:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1138,11 +1149,12 @@ Caule Black Purple Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-card-background-color: var(--ha-card-background)
@@ -1211,7 +1223,7 @@ Caule Black Blue Glass:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1231,11 +1243,12 @@ Caule Black Blue Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-card-background-color: var(--ha-card-background)
@@ -1304,7 +1317,7 @@ Caule Black Aqua Glass:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1324,11 +1337,12 @@ Caule Black Aqua Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-card-background-color: var(--ha-card-background)
@@ -1397,7 +1411,7 @@ Caule Black Green Glass:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1417,11 +1431,12 @@ Caule Black Green Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-card-background-color: var(--ha-card-background)
@@ -1490,7 +1505,7 @@ Caule Black Yellow Glass:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1510,11 +1525,12 @@ Caule Black Yellow Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-card-background-color: var(--ha-card-background)
@@ -1583,7 +1599,7 @@ Caule Black Orange Glass:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1603,11 +1619,12 @@ Caule Black Orange Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-card-background-color: var(--ha-card-background)
@@ -1676,7 +1693,7 @@ Caule Black Coral Glass:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1696,11 +1713,12 @@ Caule Black Coral Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-card-background-color: var(--ha-card-background)
@@ -1769,7 +1787,7 @@ Caule Black Pink Glass:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1789,11 +1807,12 @@ Caule Black Pink Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-card-background-color: var(--ha-card-background)
@@ -1862,7 +1881,7 @@ Caule Black Gray Glass:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1882,11 +1901,12 @@ Caule Black Gray Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-card-background-color: var(--ha-card-background)
@@ -1959,7 +1979,7 @@ Caule Light Rose:
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1979,11 +1999,12 @@ Caule Light Rose:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
@@ -2050,7 +2071,7 @@ Caule Light Purple:
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2070,11 +2091,12 @@ Caule Light Purple:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
@@ -2141,7 +2163,7 @@ Caule Light Blue:
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2161,11 +2183,12 @@ Caule Light Blue:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
@@ -2232,7 +2255,7 @@ Caule Light Aqua:
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2252,11 +2275,12 @@ Caule Light Aqua:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
@@ -2323,7 +2347,7 @@ Caule Light Green:
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2343,11 +2367,12 @@ Caule Light Green:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
@@ -2414,7 +2439,7 @@ Caule Light Yellow:
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2434,11 +2459,12 @@ Caule Light Yellow:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
@@ -2505,7 +2531,7 @@ Caule Light Orange:
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2525,11 +2551,12 @@ Caule Light Orange:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
@@ -2596,7 +2623,7 @@ Caule Light Coral:
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2616,11 +2643,12 @@ Caule Light Coral:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
@@ -2687,7 +2715,7 @@ Caule Light Pink:
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2707,11 +2735,12 @@ Caule Light Pink:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
@@ -2778,7 +2807,7 @@ Caule Light Gray:
   primary-text-color: "#7f7f7f"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2798,11 +2827,12 @@ Caule Light Gray:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#ffffff"
   paper-card-background-color: var(--ha-card-background)
@@ -2875,7 +2905,7 @@ Caule Dark Rose:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2895,11 +2925,12 @@ Caule Dark Rose:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
@@ -2966,7 +2997,7 @@ Caule Dark Purple:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2986,11 +3017,12 @@ Caule Dark Purple:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
@@ -3057,7 +3089,7 @@ Caule Dark Blue:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3077,11 +3109,12 @@ Caule Dark Blue:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
@@ -3148,7 +3181,7 @@ Caule Dark Aqua:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3168,11 +3201,12 @@ Caule Dark Aqua:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
@@ -3239,7 +3273,7 @@ Caule Dark Green:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3259,11 +3293,12 @@ Caule Dark Green:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
@@ -3330,7 +3365,7 @@ Caule Dark Yellow:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3350,11 +3385,12 @@ Caule Dark Yellow:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
@@ -3421,7 +3457,7 @@ Caule Dark Orange:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3441,11 +3477,12 @@ Caule Dark Orange:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
@@ -3512,7 +3549,7 @@ Caule Dark Coral:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3532,11 +3569,12 @@ Caule Dark Coral:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
@@ -3603,7 +3641,7 @@ Caule Dark Pink:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3623,11 +3661,12 @@ Caule Dark Pink:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
@@ -3694,7 +3733,7 @@ Caule Dark Gray:
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--light-primary-color)
+  disabled-text-color: var(--disabled-color)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3714,11 +3753,12 @@ Caule Dark Gray:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-container-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--light-primary-color)
+  label-badge-red: var(--primary-color)
+  label-badge-blue: var(--light-primary-color)
   # Cards colors
   ha-card-background: "#2A282D"
   paper-card-background-color: var(--ha-card-background)
@@ -3762,7 +3802,3 @@ Caule Dark Gray:
   google-blue-500: var(--primary-color)
   accent-color: var(--disabled-color)
   hacs-chip-color: var(--primary-color)
-
-
-
-
