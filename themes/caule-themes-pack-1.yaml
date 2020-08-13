@@ -131,7 +131,7 @@ Caule Black Rose:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -220,7 +220,7 @@ Caule Black Purple:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -311,7 +311,7 @@ Caule Black Blue:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -402,7 +402,7 @@ Caule Black Aqua:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -493,7 +493,7 @@ Caule Black Green:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -584,7 +584,7 @@ Caule Black Yellow:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -675,7 +675,7 @@ Caule Black Orange:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -766,7 +766,7 @@ Caule Black Coral:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -857,7 +857,7 @@ Caule Black Pink:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -948,7 +948,7 @@ Caule Black Gray:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1046,7 +1046,7 @@ Caule Black Rose Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1139,7 +1139,7 @@ Caule Black Purple Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1232,7 +1232,7 @@ Caule Black Blue Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1325,7 +1325,7 @@ Caule Black Aqua Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1418,7 +1418,7 @@ Caule Black Green Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1511,7 +1511,7 @@ Caule Black Yellow Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1604,7 +1604,7 @@ Caule Black Orange Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1697,7 +1697,7 @@ Caule Black Coral Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1790,7 +1790,7 @@ Caule Black Pink Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1883,7 +1883,7 @@ Caule Black Gray Glass:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -1980,7 +1980,7 @@ Caule Light Rose:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2071,7 +2071,7 @@ Caule Light Purple:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2162,7 +2162,7 @@ Caule Light Blue:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2253,7 +2253,7 @@ Caule Light Aqua:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2344,7 +2344,7 @@ Caule Light Green:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2435,7 +2435,7 @@ Caule Light Yellow:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2526,7 +2526,7 @@ Caule Light Orange:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2617,7 +2617,7 @@ Caule Light Coral:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2708,7 +2708,7 @@ Caule Light Pink:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2799,7 +2799,7 @@ Caule Light Gray:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2896,7 +2896,7 @@ Caule Dark Rose:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -2987,7 +2987,7 @@ Caule Dark Purple:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3078,7 +3078,7 @@ Caule Dark Blue:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3169,7 +3169,7 @@ Caule Dark Aqua:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3260,7 +3260,7 @@ Caule Dark Green:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3351,7 +3351,7 @@ Caule Dark Yellow:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3442,7 +3442,7 @@ Caule Dark Orange:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3533,7 +3533,7 @@ Caule Dark Coral:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3624,7 +3624,7 @@ Caule Dark Pink:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
@@ -3715,7 +3715,7 @@ Caule Dark Gray:
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--light-primary-color)
+  paper-slider-secondary-color: var(--disabled-color)
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
