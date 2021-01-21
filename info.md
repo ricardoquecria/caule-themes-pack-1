@@ -1,4 +1,4 @@
-# Caule Themes Pack 1 - by caulecriativo.com
+# Caule Themes Pack 1 - by caule.studio
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square)](https://github.com/custom-components/hacs)
 [![ha brasil](https://img.shields.io/static/v1?label=HA%20Brasil&message=forum&color=green&style=flat-square)](https://forum.homeassistantbrasil.com.br/t/caule-themes-pack-1-by-caulecriativo-com/1422)
 [![ha brasil discord](https://img.shields.io/static/v1?label=HA%20Brasil&message=discord&color=blueviolet&style=flat-square)](http://habr.ml)
@@ -20,7 +20,7 @@ Created by Ricardo Correia for the Home Assistant Brazil community.
 I want to ask only 2 things if you like my work:
 
 1) Contribute to my work! [Buy Me A Coffee](https://www.buymeacoffee.com/orickcorreia)
-2) Follow my creative studio on instagram: [caulecriativo.com](http://caulecriativo.com)
+2) Follow my creative studio on instagram: [caule.studio](http://caule.studio)
 
 Make good use of themes ☺️
 
