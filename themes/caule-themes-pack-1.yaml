@@ -180,7 +180,7 @@ Caule Black Rose:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
-  # New
+  # New 
   mdc-text-field-fill-color: var(--ha-card-background)
   mdc-text-field-ink-color: var(--primary-text-color)
   mdc-select-fill-color: var(--ha-card-background)
