@@ -111,6 +111,7 @@ Caule Black Rose:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -221,6 +222,7 @@ Caule Black Purple:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -333,6 +335,7 @@ Caule Black Blue:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -445,6 +448,7 @@ Caule Black Aqua:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -557,6 +561,7 @@ Caule Black Green:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -669,6 +674,7 @@ Caule Black Yellow:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -781,6 +787,7 @@ Caule Black Orange:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -893,6 +900,7 @@ Caule Black Coral:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1005,6 +1013,7 @@ Caule Black Pink:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1117,6 +1126,7 @@ Caule Black Gray:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1236,6 +1246,7 @@ Caule Black Rose Glass:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1350,6 +1361,7 @@ Caule Black Purple Glass:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1464,6 +1476,7 @@ Caule Black Blue Glass:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1578,6 +1591,7 @@ Caule Black Aqua Glass:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1692,6 +1706,7 @@ Caule Black Green Glass:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1806,6 +1821,7 @@ Caule Black Yellow Glass:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -1920,6 +1936,7 @@ Caule Black Orange Glass:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2034,6 +2051,7 @@ Caule Black Coral Glass:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2148,6 +2166,7 @@ Caule Black Pink Glass:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2262,6 +2281,7 @@ Caule Black Gray Glass:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2380,6 +2400,7 @@ Caule Light Rose:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2492,6 +2513,7 @@ Caule Light Purple:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2604,6 +2626,7 @@ Caule Light Blue:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2716,6 +2739,7 @@ Caule Light Aqua:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2828,6 +2852,7 @@ Caule Light Green:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -2940,6 +2965,7 @@ Caule Light Yellow:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3052,6 +3078,7 @@ Caule Light Orange:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3164,6 +3191,7 @@ Caule Light Coral:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3276,6 +3304,7 @@ Caule Light Pink:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3388,6 +3417,7 @@ Caule Light Gray:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3506,6 +3536,7 @@ Caule Dark Rose:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3618,6 +3649,7 @@ Caule Dark Purple:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3730,6 +3762,7 @@ Caule Dark Blue:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3842,6 +3875,7 @@ Caule Dark Aqua:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -3954,6 +3988,7 @@ Caule Dark Green:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -4066,6 +4101,7 @@ Caule Dark Yellow:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -4179,6 +4215,7 @@ Caule Dark Orange:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -4291,6 +4328,7 @@ Caule Dark Coral:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -4403,6 +4441,7 @@ Caule Dark Pink:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
@@ -4515,6 +4554,7 @@ Caule Dark Gray:
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
+  text-on-state-color: var(--ha-card-background)
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
