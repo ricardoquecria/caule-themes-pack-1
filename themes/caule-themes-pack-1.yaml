@@ -25,7 +25,7 @@
 #
 #     Created by Ricardo Correia for the Home Assistant Brasil community
 #     There are 10 Main colors, totaling 40 different themes!
-#     Release 1.3.2
+#     Release 1.3.3
 #
 #     I want to ask only 2 things for those who benefit from these themes:
 #
@@ -180,6 +180,28 @@ Caule Black Rose:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
+
 
 ##########################################
 
@@ -271,6 +293,27 @@ Caule Black Purple:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -364,6 +407,27 @@ Caule Black Blue:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -457,6 +521,27 @@ Caule Black Aqua:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -550,6 +635,27 @@ Caule Black Green:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -643,6 +749,27 @@ Caule Black Yellow:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -736,6 +863,27 @@ Caule Black Orange:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -829,6 +977,27 @@ Caule Black Coral:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -922,6 +1091,27 @@ Caule Black Pink:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -1015,6 +1205,27 @@ Caule Black Gray:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -1115,6 +1326,27 @@ Caule Black Rose Glass:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -1210,6 +1442,27 @@ Caule Black Purple Glass:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -1305,6 +1558,27 @@ Caule Black Blue Glass:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -1400,6 +1674,27 @@ Caule Black Aqua Glass:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -1495,6 +1790,27 @@ Caule Black Green Glass:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -1590,6 +1906,27 @@ Caule Black Yellow Glass:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -1685,6 +2022,27 @@ Caule Black Orange Glass:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -1780,6 +2138,27 @@ Caule Black Coral Glass:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -1875,6 +2254,27 @@ Caule Black Pink Glass:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -1970,6 +2370,27 @@ Caule Black Gray Glass:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -2069,6 +2490,27 @@ Caule Light Rose:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -2162,6 +2604,27 @@ Caule Light Purple:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -2255,6 +2718,27 @@ Caule Light Blue:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -2348,6 +2832,27 @@ Caule Light Aqua:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -2441,6 +2946,27 @@ Caule Light Green:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -2534,6 +3060,27 @@ Caule Light Yellow:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -2627,6 +3174,27 @@ Caule Light Orange:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -2720,6 +3288,27 @@ Caule Light Coral:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -2813,6 +3402,27 @@ Caule Light Pink:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -2906,6 +3516,27 @@ Caule Light Gray:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -3005,6 +3636,27 @@ Caule Dark Rose:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -3098,6 +3750,27 @@ Caule Dark Purple:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -3191,6 +3864,27 @@ Caule Dark Blue:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -3284,6 +3978,27 @@ Caule Dark Aqua:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -3377,6 +4092,27 @@ Caule Dark Green:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
   
 
@@ -3470,6 +4206,27 @@ Caule Dark Yellow:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
   
@@ -3564,6 +4321,27 @@ Caule Dark Orange:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -3657,6 +4435,27 @@ Caule Dark Coral:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -3750,6 +4549,27 @@ Caule Dark Pink:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+
 
 
 
@@ -3843,3 +4663,23 @@ Caule Dark Gray:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # New
+  mdc-text-field-fill-color: var(--ha-card-background)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--ha-card-background)
+  mdc-text-field-label-ink-color: var(--primary-color)
+  input-fill-color: var(--primary-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
