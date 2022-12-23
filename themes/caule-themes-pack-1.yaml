@@ -120,7 +120,14 @@ Caule Black Rose:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Icons colors
   state-icon-color: var(--disabled-color)
-  state-icon-active-color: var(--primary-color)
+  state-switch-color: var(--primary-color)
+  state-automation-color: var(--primary-color)
+  state-cover-color: var(--primary-color)
+  state-fan-color: var(--primary-color)
+  state-light-color: var(--primary-color)
+  state-person-home-color: var(--primary-color)
+  badge-person-not-home-color: var(--primary-color)
+  state-person-zone-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
