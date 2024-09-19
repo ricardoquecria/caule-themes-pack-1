@@ -24,6 +24,7 @@ Created by Ricardo Correia for the Home Assistant Brazil community.
 * 40 themes in total;
 * Animated icons for the weather forecast card;
 * And a bonus automatic theme selector for your interface.
+* Updated for HACS2.0 to reference all images via githubusercontent CDN due to changes in HACS file structure
 
 I want to ask only 2 things for those who benefit from these themes:
 
